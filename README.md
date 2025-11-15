@@ -1,6 +1,6 @@
 <!-- Profile README for @M-Ramzan-Ch -->
 
-<h1 align="center">👋 Hi, I'm <a href="https://github.com/M-Ramzan-Ch" target="_blank">M Ramzan Ch</a></h1>
+<h1 align="center">👋 Hi, I'm <a href="https://github.com/Pro-Bandey" target="_blank">M Ramzan Ch</a></h1>
 <h3 align="center">💻 Web Developer | 🎨 Graphic Designer | 🧠 Software Enthusiast</h3>
 
 ---
@@ -23,7 +23,7 @@
 
 
 ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat&logo=node.js&logoColor=white)
+![Node.js](https://img.shields.io/badge/Markdown-43853D?style=flat&logo=md&logoColor=white)
 
 #### 🎨 **Design & Creativity**
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white)
@@ -41,8 +41,8 @@
 ### 📊 GitHub Analytics
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=M-Ramzan-Ch&show_icons=true&theme=tokyonight" />
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=M-Ramzan-Ch&theme=tokyonight" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Pro-Bandey &show_icons=true&theme=tokyonight" />
+  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=Pro-Bandey&theme=tokyonight" />
 </p>
 
 ---
@@ -52,7 +52,7 @@
 <p align="center">
   <a href="https://www.facebook.com/rm4814691"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/></a>
   <a href="https://instagram.com/rm4814691"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
-  <a href="https://github.com/ThirdParty-Pro"><img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="https://github.com/Pro-Bandey"><img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white"/></a>
   <a href="https://linkedin.com/in/mramzanch"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 </p>
 
@@ -65,4 +65,4 @@
 
 ---
 
-⭐️ From [@M-Ramzan-Ch](https://github.com/M-Ramzan-Ch)
+⭐️ From [@M-Ramzan-Ch](https://github.com/MegaMind-Solution)
