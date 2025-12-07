@@ -1,11 +1,11 @@
 <!-- Profile README for @M-Ramzan-Ch -->
 
 <p align="center">
-  <a href="https://git.io/typing-svg"><img
+  <a href="https://GitHub.com/Pro-Bandey"><img
   src="https://readme-typing-svg.demolab.com/?lines=Hi%F0%9F%91%8B+Welcome+to+PRO+BANDEY+Profile!&font=Teko&size=40&center=true&width=550&height=70"/></a>
 </p>
 
-<h1 align="center">, I'm <a href="https://github.com/Pro-Bandey" target="_blank">M Ramzan Ch</a></h1>
+<h1 align="center">I'm <a href="https://github.com/Pro-Bandey" target="_blank">M Ramzan Ch</a></h1>
 <h3 align="center">💻 Web Developer | 🎨 Graphic Designer | 🧠 Software Enthusiast</h3>
 
 ---
