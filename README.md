@@ -5,7 +5,6 @@
   src="https://readme-typing-svg.demolab.com/?lines=Hi%F0%9F%91%8B+Welcome+to+PRO+BANDEY+Profile!&font=Teko&size=40&center=true&width=550&height=70"/></a>
 </p>
 
-
 <h3 align="center">💻 Web Developer | 🎨 Graphic Designer | 🧠 Software Enthusiast</h3>
 
 ---
