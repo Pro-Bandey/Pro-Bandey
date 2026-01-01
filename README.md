@@ -46,8 +46,7 @@
 ### 📊 GitHub Analytics
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Pro-Bandey &show_icons=true&theme=tokyonight" />
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=Pro-Bandey&theme=tokyonight" />
+  <img height="180em" src="https://raw.githubusercontent.com/Pro-Bandey/Pro-Bandey/refs/heads/output/github-snake-dracula-stars.svg" />
 </p>
 
 ---
