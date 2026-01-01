@@ -2,10 +2,12 @@ name: Generate Snake
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "0 */6 * * *"  # every 6 hours
   workflow_dispatch:
 
 jobs:
@@ -13,21 +15,60 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate Snake
+      - name: Create dist folder
+        run: mkdir -p dist
+
+      - name: Generate Light Snake SVG
         uses: Platane/snk@v3
         with:
           github_user_name: Pro-Bandey
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake.gif
+          outputs: dist/github-contribution-grid-snake-light.svg
+          style: light
 
-      - name: Git status
-        run: git status
+      - name: Generate Dark Snake SVG
+        uses: Platane/snk@v3
+        with:
+          github_user_name: Pro-Bandey
+          outputs: dist/github-contribution-grid-snake-dark.svg
+          style: dark
 
-      - name: Deploy to GitHub Pages
+      - name: Generate Ocean Snake SVG
+        uses: Platane/snk@v3
+        with:
+          github_user_name: Pro-Bandey
+          outputs: dist/github-contribution-grid-snake-ocean.svg
+          style: ocean
+
+      - name: Generate Dracula Snake SVG
+        uses: Platane/snk@v3
+        with:
+          github_user_name: Pro-Bandey
+          outputs: dist/github-contribution-grid-snake-dracula.svg
+          style: dracula
+
+      - name: Generate HTML iframe embeds
+        run: |
+          echo '<!-- Snake Embeds -->' > dist/snake-embeds.html
+          for style in light dark ocean dracula; do
+            cat >> dist/snake-embeds.html <<EOL
+<h3>Snake Style: $style</h3>
+<iframe src="https://raw.githubusercontent.com/Pro-Bandey/${GITHUB_REPOSITORY}/output/github-contribution-grid-snake-$style.svg" 
+        width="600" height="150" frameborder="0" scrolling="no"></iframe>
+<canvas id="snake-$style"></canvas>
+<script>
+fetch("https://raw.githubusercontent.com/Pro-Bandey/${GITHUB_REPOSITORY}/output/github-contribution-grid-snake-$style.svg")
+  .then(r => r.text())
+  .then(svg => {
+    document.getElementById("snake-$style").outerHTML = svg;
+  });
+</script>
+EOL
+          done
+
+      - name: Deploy to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
