@@ -7,7 +7,7 @@ permissions:
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "0 */6 * * *"  # every 6 hours
   workflow_dispatch:
 
 jobs:
@@ -21,47 +21,41 @@ jobs:
       - name: Create dist folder
         run: mkdir -p dist
 
-      - name: Generate Light Snake SVG
+      - name: Generate Light Snake
         uses: Platane/snk@v3
         with:
           github_user_name: Pro-Bandey
-          outputs: dist/github-contribution-grid-snake-light.svg
+          outputs: |
+            dist/github-contribution-grid-snake-light.svg
+            dist/github-contribution-grid-snake-light.gif
           style: light
 
-      - name: Generate Dark Snake SVG
+      - name: Generate Dark Snake
         uses: Platane/snk@v3
         with:
           github_user_name: Pro-Bandey
-          outputs: dist/github-contribution-grid-snake-dark.svg
+          outputs: |
+            dist/github-contribution-grid-snake-dark.svg
+            dist/github-contribution-grid-snake-dark.gif
           style: dark
 
-      - name: Generate Ocean Snake SVG
+      - name: Generate Ocean Snake
         uses: Platane/snk@v3
         with:
           github_user_name: Pro-Bandey
-          outputs: dist/github-contribution-grid-snake-ocean.svg
+          outputs: |
+            dist/github-contribution-grid-snake-ocean.svg
+            dist/github-contribution-grid-snake-ocean.gif
           style: ocean
 
-      - name: Generate Dracula Snake SVG
+      - name: Generate Dracula Snake
         uses: Platane/snk@v3
         with:
           github_user_name: Pro-Bandey
-          outputs: dist/github-contribution-grid-snake-dracula.svg
+          outputs: |
+            dist/github-contribution-grid-snake-dracula.svg
+            dist/github-contribution-grid-snake-dracula.gif
           style: dracula
-
-      - name: Generate HTML iframe embeds
-        run: |
-          echo '<!-- Snake Embeds -->' > dist/snake-embeds.html
-          for style in light dark ocean dracula; do
-            echo "<h3>Snake Style: $style</h3>" >> dist/snake-embeds.html
-            echo "<iframe src=\"https://raw.githubusercontent.com/Pro-Bandey/${GITHUB_REPOSITORY}/output/github-contribution-grid-snake-$style.svg\" width=\"600\" height=\"150\" frameborder=\"0\" scrolling=\"no\"></iframe>" >> dist/snake-embeds.html
-            echo "<canvas id=\"snake-$style\"></canvas>" >> dist/snake-embeds.html
-            echo "<script>
-fetch(\"https://raw.githubusercontent.com/Pro-Bandey/${GITHUB_REPOSITORY}/output/github-contribution-grid-snake-$style.svg\")
-  .then(r => r.text())
-  .then(svg => { document.getElementById(\"snake-$style\").outerHTML = svg; });
-</script>" >> dist/snake-embeds.html
-          done
 
       - name: Deploy to output branch
         uses: crazy-max/ghaction-github-pages@v4
