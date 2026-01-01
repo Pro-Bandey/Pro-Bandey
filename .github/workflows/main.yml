@@ -7,7 +7,7 @@ permissions:
 
 on:
   schedule:
-    - cron: "0 */6 * * *"  # every 6 hours
+    - cron: "0 */6 * * *"
   workflow_dispatch:
 
 jobs:
@@ -21,6 +21,7 @@ jobs:
       - name: Create dist folder
         run: mkdir -p dist
 
+      # ------------------ Light Style ------------------
       - name: Generate Light Snake
         uses: Platane/snk@v3
         with:
@@ -29,7 +30,11 @@ jobs:
             dist/github-contribution-grid-snake-light.svg
             dist/github-contribution-grid-snake-light.gif
           style: light
+          shape: round
+          background: "#ffffff"
+          month_labels: true
 
+      # ------------------ Dark Style ------------------
       - name: Generate Dark Snake
         uses: Platane/snk@v3
         with:
@@ -38,7 +43,11 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg
             dist/github-contribution-grid-snake-dark.gif
           style: dark
+          shape: square
+          background: "#1e1e1e"
+          month_labels: true
 
+      # ------------------ Ocean Style ------------------
       - name: Generate Ocean Snake
         uses: Platane/snk@v3
         with:
@@ -47,7 +56,11 @@ jobs:
             dist/github-contribution-grid-snake-ocean.svg
             dist/github-contribution-grid-snake-ocean.gif
           style: ocean
+          shape: triangle
+          background: "#a0e7e5"
+          month_labels: true
 
+      # ------------------ Dracula Style ------------------
       - name: Generate Dracula Snake
         uses: Platane/snk@v3
         with:
@@ -56,6 +69,9 @@ jobs:
             dist/github-contribution-grid-snake-dracula.svg
             dist/github-contribution-grid-snake-dracula.gif
           style: dracula
+          shape: star
+          background: "#282a36"
+          month_labels: true
 
       - name: Deploy to output branch
         uses: crazy-max/ghaction-github-pages@v4
