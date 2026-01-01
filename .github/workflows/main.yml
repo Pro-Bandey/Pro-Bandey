@@ -7,7 +7,7 @@ permissions:
 
 on:
   schedule:
-    - cron: "0 */6 * * *"  # every 6 hours
+    - cron: "0 */6 * * *"
   workflow_dispatch:
 
 jobs:
@@ -53,19 +53,14 @@ jobs:
         run: |
           echo '<!-- Snake Embeds -->' > dist/snake-embeds.html
           for style in light dark ocean dracula; do
-            cat >> dist/snake-embeds.html <<EOL
-<h3>Snake Style: $style</h3>
-<iframe src="https://raw.githubusercontent.com/Pro-Bandey/${GITHUB_REPOSITORY}/output/github-contribution-grid-snake-$style.svg" 
-        width="600" height="150" frameborder="0" scrolling="no"></iframe>
-<canvas id="snake-$style"></canvas>
-<script>
-fetch("https://raw.githubusercontent.com/Pro-Bandey/${GITHUB_REPOSITORY}/output/github-contribution-grid-snake-$style.svg")
+            echo "<h3>Snake Style: $style</h3>" >> dist/snake-embeds.html
+            echo "<iframe src=\"https://raw.githubusercontent.com/Pro-Bandey/${GITHUB_REPOSITORY}/output/github-contribution-grid-snake-$style.svg\" width=\"600\" height=\"150\" frameborder=\"0\" scrolling=\"no\"></iframe>" >> dist/snake-embeds.html
+            echo "<canvas id=\"snake-$style\"></canvas>" >> dist/snake-embeds.html
+            echo "<script>
+fetch(\"https://raw.githubusercontent.com/Pro-Bandey/${GITHUB_REPOSITORY}/output/github-contribution-grid-snake-$style.svg\")
   .then(r => r.text())
-  .then(svg => {
-    document.getElementById("snake-$style").outerHTML = svg;
-  });
-</script>
-EOL
+  .then(svg => { document.getElementById(\"snake-$style\").outerHTML = svg; });
+</script>" >> dist/snake-embeds.html
           done
 
       - name: Deploy to output branch
