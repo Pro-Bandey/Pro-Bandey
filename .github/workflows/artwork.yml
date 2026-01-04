@@ -3,7 +3,7 @@ name: Generate GitHub Contribution Graph Artwork
 on:
   push:
     branches:
-      - output1
+      - main
 
 permissions:
   contents: write
