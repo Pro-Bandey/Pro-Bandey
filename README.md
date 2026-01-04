@@ -62,6 +62,14 @@
 
 ---
 
+### 📊 Brand 
+
+<p align="center">
+  <img height="180em" src="https://raw.githubusercontent.com/Pro-Bandey/Pro-Bandey/refs/heads/main/gitartwork.svg" />
+</p>
+
+---
+
 ### 🏆 Featured Quote
 
 > *"Code is like art — it’s not just about solving problems, it’s about creating experiences."*  
