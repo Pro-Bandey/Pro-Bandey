@@ -21,9 +21,9 @@ jobs:
           user_name: probandey-bot
           text: PB
 
-      - name: Remove gitartwork credit text
+      - name: Remove gitartwork credit text safely
         run: |
-          sed -i '/jasineri\/gitartwork/d' gitartwork.svg
+          sed -i 's/Get your own gitartwork on jasineri\/gitartwork//g' gitartwork.svg
 
       - name: Commit SVG
         uses: stefanzweifel/git-auto-commit-action@v5
