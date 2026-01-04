@@ -13,17 +13,18 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
       - name: Generate contribution graph SVG
         uses: jasineri/gitartwork@v1
         with:
-          user_name: pro-bandey  
-          text: PRO BANDEY         
+          user_name: probandey-bot
+          text: PB
 
       - name: Commit SVG
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update gitartwork.svg"
           file_pattern: gitartwork.svg
+          commit_user_name: probandey-bot
+          commit_user_email: probandey-bot@users.noreply.github.com
