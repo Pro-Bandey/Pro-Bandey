@@ -19,8 +19,8 @@ jobs:
       - name: Generate contribution graph SVG
         uses: jasineri/gitartwork@v1
         with:
-          user_name: Pro-Bandey
-          text: ProBandey
+          user_name: pro-bandey  
+          text: PRO BANDEY         
 
       - name: Commit SVG
         uses: stefanzweifel/git-auto-commit-action@v5
