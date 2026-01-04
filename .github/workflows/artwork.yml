@@ -20,7 +20,7 @@ jobs:
         uses: jasineri/gitartwork@v1
         with:
           user_name: Pro-Bandey
-          text: M Ramzan Ch
+          text: Pro Bandey
 
       - name: Commit SVG
         uses: stefanzweifel/git-auto-commit-action@v5
