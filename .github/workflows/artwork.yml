@@ -19,7 +19,7 @@ jobs:
         uses: jasineri/gitartwork@v1
         with:
           user_name: probandey-bot
-          text: PB
+          text: PB, MRc
 
       - name: Remove gitartwork credit text safely
         run: |
