@@ -67,6 +67,9 @@
 <p align="center">
   <img height="180em" src="https://raw.githubusercontent.com/Pro-Bandey/Pro-Bandey/refs/heads/main/gitartwork.svg" />
 </p>
+<p align="center">
+  <img height="180em" src=".github/workflows/Pro-Bandey_Brand.svg" />
+</p>
 
 ---
 
