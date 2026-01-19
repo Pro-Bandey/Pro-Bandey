@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="8 8 174 34" class="pro-bandey-bold">
+  <defs>
+    <!-- Glow effect using image colors -->
+    <filter id="neon-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    
+    <!-- Metallic Sweep -->
+    <linearGradient id="shine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0)"/>
+      <stop offset="50%" stop-color="rgba(255,255,255,0.6)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    :root {
+      --brand-orange: #f29100;
+      --keyboard-green: #39ff14;
+      --duration: 0.9s;
+      --ease: cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    .letter {
+      fill: none;
+      stroke: var(--brand-orange);
+      stroke-width: 3.2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-dasharray: 120;
+      stroke-dashoffset: 120;
+      animation: 
+        draw var(--duration) var(--ease) forwards,
+        power-flash 0.4s ease-out forwards,
+        settle-fill 0.6s ease-out forwards;
+    }
+
+    @keyframes draw {
+      to { stroke-dashoffset: 0; }
+    }
+
+    @keyframes power-flash {
+      0% { stroke: var(--brand-orange); filter: brightness(1); }
+      50% { stroke: var(--keyboard-green); filter: brightness(2) drop-shadow(0 0 5px var(--keyboard-green)); }
+      100% { stroke: var(--brand-orange); filter: brightness(1); }
+    }
+
+    @keyframes settle-fill {
+      to { fill: rgba(242, 145, 0, 0.15); }
+    }
+
+    /* Sweep animation for the brand name */
+    .sweep {
+      fill: url(#shine);
+      animation: sweep-move 4s infinite 3s;
+    }
+
+    @keyframes sweep-move {
+      0% { transform: translateX(-100%); }
+      20% { transform: translateX(100%); }
+      100% { transform: translateX(100%); }
+    }
+
+    /* Timing offsets */
+    .l-p { animation-delay: 0.1s, 1.0s, 1.2s; }
+    .l-r { animation-delay: 0.2s, 1.1s, 1.3s; }
+    .l-o { animation-delay: 0.3s, 1.2s, 1.4s; }
+    .l-b { animation-delay: 0.5s, 1.4s, 1.6s; }
+    .l-a { animation-delay: 0.6s, 1.5s, 1.7s; }
+    .l-n { animation-delay: 0.7s, 1.6s, 1.8s; }
+    .l-d { animation-delay: 0.8s, 1.7s, 1.9s; }
+    .l-e { animation-delay: 0.9s, 1.8s, 2.0s; }
+    .l-y { animation-delay: 1.0s, 1.9s, 2.1s; }
+  </style>
+
+  <g filter="url(#neon-glow)">
+    <!-- PRO -->
+    <path class="letter l-p" d="M10 30 V10 H22 L25 13 V18 L22 21 H10" />
+    <path class="letter l-r" d="M30 30 V10 H40 L43 13 V18 L40 21 H30 M38 21 L43 30" />
+    <path class="letter l-o" d="M48 13 L51 10 H60 L63 13 V27 L60 30 H51 L48 27 Z" />
+
+    <!-- BANDEY -->
+    <path class="letter l-b" d="M75 30 V10 H85 L88 13 V18 L85 21 H75 M85 21 L88 24 V27 L85 30 H75" />
+    <path class="letter l-a" d="M93 30 L100 10 L107 30 M95 24 H105" />
+    <path class="letter l-n" d="M112 30 V10 L125 30 V10" />
+    <path class="letter l-d" d="M130 30 V10 H140 L143 13 V27 L140 30 H130" />
+    <path class="letter l-e" d="M148 10 H160 M148 20 H157 M148 30 H160 M148 10 V30" />
+    <path class="letter l-y" d="M165 10 L172 20 V30 M179 10 L172 20" />
+  </g>
+
+  <!-- Animated Accent Bar (fitted to text width) -->
+  <rect x="10" y="38" width="0" height="2" fill="var(--keyboard-green)" filter="url(#neon-glow)">
+    <animate attributeName="width" from="0" to="169" dur="1s" begin="1.8s" fill="freeze" />
+  </rect>
+  
+  <!-- Metallic Sweep (fitted to text height) -->
+  <rect x="10" y="10" width="169" height="28" class="sweep" />
+</svg>
