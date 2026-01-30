@@ -79,5 +79,3 @@
 > — **M Ramzan Ch**
 
 ---
-
-⭐️ From [@M-Ramzan-Ch](https://github.com/MegaMind-Solution)
