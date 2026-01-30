@@ -6,7 +6,7 @@
   </a>
 </p>
 
-<h3 align="center">💻 Web Developer | 🎨 Graphic Designer | 🧠 Software Enthusiast | Solution Provider </h3>
+<h3 align="center">💻 Web Developer | 🧠 Software Enthusiast | Solution Provider </h3>
 
 ---
 
