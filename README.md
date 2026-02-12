@@ -12,8 +12,7 @@
 
 ### 🚀 About Me
 
-- 👀 I’m passionate about **Web Development**, **Graphics Designing**, and **Software Development & Modifications**.  
-- 🌱 Currently learning **ICS Statistics** and improving my **Full-Stack Development** skills.  
+- 👀 Expert & Passionate website developer and Designer| Building stunning websites
 - 💞️ Open to collaboration on **modern web applications** and **open-source projects**.  
 - 🧩 Love building creative tools, extensions, and productivity-focused web utilities.  
 
