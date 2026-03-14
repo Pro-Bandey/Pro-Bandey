@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://GitHub.com/Pro-Bandey">
-    <img src="https://readme-typing-svg.demolab.com?font=Teko&weight=600&size=40&pause=100&color=F7801D&background=26880000&center=true&multiline=true&width=485&height=200&lines=Hi+%F0%9F%91%8B;Welcome+To+My+Pro+Bandey+Brand" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Teko&weight=600&size=40&pause=100&color=F7801D&background=26880000&center=true&multiline=true&width=485&height=200&lines=Hi+%F0%9F%91%8B;Welcome+To+Pro+Bandey's+World" alt="Typing SVG" />
   </a>
 </p>
 
@@ -50,16 +50,6 @@
 
 ---
 
-### 🌐 Connect with Me
-
-<p align="center">
-  <a href="https://www.facebook.com/rm4814691"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/></a>
-  <a href="https://instagram.com/rm4814691"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
-  <a href="https://github.com/Pro-Bandey"><img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white"/></a>
-  <a href="https://linkedin.com/in/mramzanch"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-</p>
-
----
 
 ### 📊 Brand 
 
@@ -75,6 +65,6 @@
 ### 🏆 Featured Quote
 
 > *"Code is like art — it’s not just about solving problems, it’s about creating experiences."*  
-> — **M Ramzan Ch**
-
+> —  By [**M Ramzan Ch**
+](http://mramzanch.blogspot.com/)
 ---
