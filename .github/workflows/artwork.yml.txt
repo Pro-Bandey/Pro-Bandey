@@ -1,0 +1,34 @@
+name: Generate GitHub Contribution Graph Artwork
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate contribution graph SVG
+        uses: jasineri/gitartwork@v1
+        with:
+          user_name: probandey-bot
+          text: PB, MRc
+
+      - name: Remove gitartwork credit text safely
+        run: |
+          sed -i 's/Get your own gitartwork on jasineri\/gitartwork//g' gitartwork.svg
+
+      - name: Commit SVG
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update gitartwork.svg"
+          file_pattern: gitartwork.svg
+          commit_user_name: probandey-bot
+          commit_user_email: probandey-bot@users.noreply.github.com
