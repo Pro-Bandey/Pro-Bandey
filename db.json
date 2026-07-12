@@ -716,7 +716,7 @@
   {
     "Repo": "ThemeSo",
     "Date": "2026-03-29T11:52:46Z",
-    "UpdatedAt": "2026-06-18T22:07:53Z",
+    "UpdatedAt": "2026-07-11T13:48:19Z",
     "Status": "Pub",
     "Desc": "A Collection of Chrome, FireFox  & VS Code Themes",
     "Langs": {},
@@ -724,7 +724,7 @@
     "PreviewUrl": "",
     "ReadMeIs": true,
     "Banner": "https://repository-images.githubusercontent.com/1195221881/7ee22f0c-675b-4fb4-99a8-0f7434468046",
-    "Commits": 12,
+    "Commits": 13,
     "Stars": 0,
     "Forks": 0
   },
