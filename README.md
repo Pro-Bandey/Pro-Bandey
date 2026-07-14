@@ -2,11 +2,11 @@
 
 <p align="center">
   <a href="https://GitHub.com/Pro-Bandey">
-    <img src="https://readme-typing-svg.demolab.com?font=Teko&weight=600&size=40&pause=100&color=F7801D&background=26880000&center=true&multiline=true&width=485&height=200&lines=Hi+%F0%9F%91%8B;Welcome+To+Pro+Bandey's+World" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Teko&weight=600&size=40&pause=100&color=F7801D&background=26880000&center=true&multiline=true&width=485&height=200&lines=Hi+%F0%9F%91%8B;Welcome+To+Pro+Bandey's+Brand" alt="Typing SVG" />
   </a>
 </p>
 
-<h3 align="center">💻 Web Developer | 🧠 Software Enthusiast | Solution Provider </h3>
+<h3 align="center"> Practical | Performent | Proven </h3>
 
 ---
 
@@ -43,6 +43,15 @@
 ---
 
 ### 📊 GitHub Analytics
+
+<div align="center">
+  <a href="https://commit-history.com/Pro-Bandey">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://commit-history.com/embed/Pro-Bandey?theme=dark" />
+      <img alt="Pro-Bandey's commit history" src="https://commit-history.com/embed/Pro-Bandey" />
+    </picture>
+  </a>
+</div>
 
 <p align="center">
   <img height="180em" src="https://raw.githubusercontent.com/Pro-Bandey/Pro-Bandey/refs/heads/output/github-snake-dracula-stars.svg" />
