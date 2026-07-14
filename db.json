@@ -25,7 +25,7 @@
   {
     "Repo": "AddOns-Manager",
     "Date": "2026-04-13T08:23:37Z",
-    "UpdatedAt": "2026-06-29T14:57:26Z",
+    "UpdatedAt": "2026-07-12T14:28:54Z",
     "Status": "Pub",
     "Desc": "Manage and track extensions By AddOns Manager",
     "Langs": {
@@ -41,7 +41,7 @@
     "PreviewUrl": "",
     "ReadMeIs": true,
     "Banner": "https://repository-images.githubusercontent.com/1209240785/4b14199c-7399-4e3e-bd58-1aaaf1890559",
-    "Commits": 12,
+    "Commits": 13,
     "Stars": 0,
     "Forks": 0
   },
@@ -69,7 +69,7 @@
   {
     "Repo": "Catch-Screen",
     "Date": "2026-04-30T06:45:13Z",
-    "UpdatedAt": "2026-06-29T14:57:03Z",
+    "UpdatedAt": "2026-07-12T14:29:17Z",
     "Status": "Pub",
     "Desc": "Impressive screenshot tool lets users can take full page screen capture selected page screen capture and edit screenshot.",
     "Langs": {
@@ -85,16 +85,16 @@
     "PreviewUrl": "",
     "ReadMeIs": true,
     "Banner": "https://repository-images.githubusercontent.com/1225310444/a9a151df-e21b-454a-953a-a2ebf93f8a55",
-    "Commits": 4,
+    "Commits": 5,
     "Stars": 0,
     "Forks": 0
   },
   {
     "Repo": "Chrome-App-Launcher-Lite",
     "Date": "2026-02-22T11:22:31Z",
-    "UpdatedAt": "2026-06-29T14:57:22Z",
+    "UpdatedAt": "2026-07-14T13:12:57Z",
     "Status": "Pub",
-    "Desc": "The Lite version of Chrome App Launcher",
+    "Desc": "A minimalist, highly performant browser extension designed to catalog, organize, and launch your daily web shortcuts through a clean, sharp-cornered interface.",
     "Langs": {
       "JavaScript": 62.1,
       "CSS": 23.2,
@@ -108,16 +108,16 @@
     "PreviewUrl": "https://pro-bandey.github.io/Chrome-App-Launcher-Lite/",
     "ReadMeIs": true,
     "Banner": "https://repository-images.githubusercontent.com/1163926295/00b593d4-3006-46ff-af1d-15bdbafd2678",
-    "Commits": 33,
+    "Commits": 35,
     "Stars": 0,
     "Forks": 0
   },
   {
     "Repo": "Color-PickUp",
     "Date": "2026-06-11T22:44:58Z",
-    "UpdatedAt": "2026-06-29T14:57:49Z",
+    "UpdatedAt": "2026-07-12T14:29:34Z",
     "Status": "Pub",
-    "Desc": "An elegant color picker and palette explorer for developers and designers.",
+    "Desc": "Color PickUp is a minimalist color picker extension and web tool designed to help you inspect, convert, and organize color palettes from a clean, responsive popup.",
     "Langs": {
       "JavaScript": 83.5,
       "HTML": 12.3,
@@ -131,14 +131,14 @@
     "PreviewUrl": "https://pro-bandey.github.io/Color-PickUp/",
     "ReadMeIs": true,
     "Banner": "https://repository-images.githubusercontent.com/1266731496/a4688b6f-917d-4116-97b6-c261ee9497a8",
-    "Commits": 11,
+    "Commits": 12,
     "Stars": 0,
     "Forks": 0
   },
   {
     "Repo": "Cool-Refresh",
     "Date": "2026-05-02T15:35:53Z",
-    "UpdatedAt": "2026-06-29T14:57:59Z",
+    "UpdatedAt": "2026-07-12T14:29:58Z",
     "Status": "Pub",
     "Desc": "Customizable pull-to-refresh instead of the built-in one.",
     "Langs": {
@@ -154,14 +154,14 @@
     "PreviewUrl": "https://addons.mozilla.org/en-US/firefox/addon/cool-refresh/",
     "ReadMeIs": true,
     "Banner": "https://repository-images.githubusercontent.com/1227370803/1093f7a5-89af-4c36-a05b-e0e3e6fe8260",
-    "Commits": 9,
+    "Commits": 10,
     "Stars": 0,
     "Forks": 0
   },
   {
     "Repo": "DashX",
     "Date": "2026-03-10T20:21:49Z",
-    "UpdatedAt": "2026-06-29T14:58:10Z",
+    "UpdatedAt": "2026-07-12T14:30:08Z",
     "Status": "Pub",
     "Desc": "DashX is Minimalist & lightweight startpage mirror of Bonjourr",
     "Langs": {
@@ -177,7 +177,7 @@
     "PreviewUrl": "https://pro-bandey.github.io/DashX/",
     "ReadMeIs": true,
     "Banner": "https://repository-images.githubusercontent.com/1178226465/4d91e64e-9c3c-4305-aa7a-dcec5047f65f",
-    "Commits": 3,
+    "Commits": 4,
     "Stars": 0,
     "Forks": 0
   },
@@ -209,7 +209,7 @@
   {
     "Repo": "DocEdit",
     "Date": "2026-01-31T18:20:53Z",
-    "UpdatedAt": "2026-06-29T14:58:32Z",
+    "UpdatedAt": "2026-07-12T14:30:32Z",
     "Status": "Pub",
     "Desc": "DocEdit, is a free and open-source text/document editor extension for your browser.",
     "Langs": {
@@ -223,7 +223,7 @@
     "PreviewUrl": "https://addons.mozilla.org/en-US/firefox/addon/docedit/",
     "ReadMeIs": true,
     "Banner": "https://repository-images.githubusercontent.com/1146818375/77310dc3-586d-44dd-a682-41e4e1a42135",
-    "Commits": 15,
+    "Commits": 16,
     "Stars": 0,
     "Forks": 0
   },
@@ -299,7 +299,7 @@
   {
     "Repo": "HomePage",
     "Date": "2025-10-19T08:19:52Z",
-    "UpdatedAt": "2026-07-09T03:20:40Z",
+    "UpdatedAt": "2026-07-13T02:50:22Z",
     "Status": "Pub",
     "Desc": "A powerful, modern, and feature-packed homepage enhancement built for productivity, speed, and customization.",
     "Langs": {
@@ -315,7 +315,7 @@
     "PreviewUrl": "https://pro-bandey.github.io/HomePage/",
     "ReadMeIs": true,
     "Banner": "https://repository-images.githubusercontent.com/1079157333/bf3faa4f-6e9a-4d13-bb93-9c44ea9e1444",
-    "Commits": 202,
+    "Commits": 203,
     "Stars": 1,
     "Forks": 0
   },
@@ -345,9 +345,9 @@
   {
     "Repo": "HomePage-Lite",
     "Date": "2025-10-19T11:28:11Z",
-    "UpdatedAt": "2026-06-29T14:58:49Z",
+    "UpdatedAt": "2026-07-14T13:11:21Z",
     "Status": "Pub",
-    "Desc": "One Place  for many of things for browsers in pro edition",
+    "Desc": "HomePage Lite is a lightweight, high-performance browser extension that replaces your default new tab page with a custom, beautifully integrated web dashboard via an iframe.",
     "Langs": {
       "JavaScript": 65.8,
       "CSS": 18.7,
@@ -361,7 +361,7 @@
     "PreviewUrl": "https://pro-bandey.github.io/HomePage-Lite/",
     "ReadMeIs": true,
     "Banner": "https://repository-images.githubusercontent.com/1079223601/7e7eaf96-82bb-4d7b-a339-9739613b7887",
-    "Commits": 16,
+    "Commits": 18,
     "Stars": 1,
     "Forks": 0
   },
@@ -414,9 +414,9 @@
   {
     "Repo": "MaterialTab",
     "Date": "2025-12-03T20:24:06Z",
-    "UpdatedAt": "2026-06-29T14:59:01Z",
+    "UpdatedAt": "2026-07-12T14:31:35Z",
     "Status": "Pub",
-    "Desc": "A Material UI HomePage That MAke Your Browser Look  Like Impressive",
+    "Desc": "A Material UI HomePage That Make Your Browser Look Like MYNT Impressive",
     "Langs": {
       "JavaScript": 67.7,
       "HTML": 20.3,
@@ -430,14 +430,14 @@
     "PreviewUrl": "https://material-tab.vercel.app",
     "ReadMeIs": true,
     "Banner": "https://repository-images.githubusercontent.com/1109448766/c0ca15e3-00da-4273-a6f1-07810e7d2a31",
-    "Commits": 8,
+    "Commits": 9,
     "Stars": 1,
     "Forks": 0
   },
   {
     "Repo": "MDEdit",
     "Date": "2026-06-06T05:04:00Z",
-    "UpdatedAt": "2026-06-29T14:59:09Z",
+    "UpdatedAt": "2026-07-12T14:31:44Z",
     "Status": "Pub",
     "Desc": "A lightweight Markdown editor designed for creating, editing, and previewing Markdown documents with ease.",
     "Langs": {
@@ -453,21 +453,21 @@
     "PreviewUrl": "https://addons.mozilla.org/en-US/firefox/addon/mdedit/",
     "ReadMeIs": true,
     "Banner": "https://repository-images.githubusercontent.com/1260979956/27d2170d-94eb-4da9-a47d-41011fa4560f",
-    "Commits": 3,
+    "Commits": 4,
     "Stars": 0,
     "Forks": 0
   },
   {
     "Repo": "multi-style-snake-contribution-grid",
     "Date": "2026-01-01T18:21:01Z",
-    "UpdatedAt": "2026-07-06T02:05:53Z",
+    "UpdatedAt": "2026-07-13T01:46:26Z",
     "Status": "Pub",
-    "Desc": "No description provided.",
+    "Desc": "Transform your GitHub contribution graph into a dynamic animation with 5 distinct styles, unique shapes, and automated month labels. This project uses a custom composite action to generate multiple snake variations simultaneously.",
     "Langs": {},
     "LangBytes": {},
     "PreviewUrl": "",
     "ReadMeIs": true,
-    "Banner": "https://opengraph.githubassets.com/bd941e4c3c619e797cdeed8204d6ec312d84556f3a1c1e886d0a043c1da506f2/Pro-Bandey/multi-style-snake-contribution-grid",
+    "Banner": "https://opengraph.githubassets.com/e9b113b108927476a84f4aa197ca0abaaab1cb66c1412202a3ec99a3ccda734c/Pro-Bandey/multi-style-snake-contribution-grid",
     "Commits": 11,
     "Stars": 1,
     "Forks": 0
@@ -475,7 +475,7 @@
   {
     "Repo": "Onyx-IpTv",
     "Date": "2026-06-04T21:07:46Z",
-    "UpdatedAt": "2026-07-06T05:12:38Z",
+    "UpdatedAt": "2026-07-13T04:31:11Z",
     "Status": "Pub",
     "Desc": "No description provided.",
     "Langs": {
@@ -540,7 +540,7 @@
   {
     "Repo": "Previewer",
     "Date": "2026-01-01T19:07:11Z",
-    "UpdatedAt": "2026-06-29T14:59:26Z",
+    "UpdatedAt": "2026-07-12T14:32:51Z",
     "Status": "Pub",
     "Desc": "a Web Tool for preview html file from any repo",
     "Langs": {
@@ -556,7 +556,7 @@
     "PreviewUrl": "https://pro-bandey.github.io/Previewer/",
     "ReadMeIs": true,
     "Banner": "https://repository-images.githubusercontent.com/1126370215/c1bbbb16-4171-4355-beab-281e6da0b63f",
-    "Commits": 11,
+    "Commits": 12,
     "Stars": 0,
     "Forks": 0
   },
@@ -609,7 +609,7 @@
   {
     "Repo": "Quantix",
     "Date": "2026-02-14T10:58:50Z",
-    "UpdatedAt": "2026-07-08T17:50:55Z",
+    "UpdatedAt": "2026-07-12T14:33:11Z",
     "Status": "Pub",
     "Desc": "Quantix is a lightweight, responsive utility calculator and comprehensive unit converter designed to work natively as a web application, a Google Chrome Extension, or a Mozilla Firefox Add-on.",
     "Langs": {
@@ -625,7 +625,7 @@
     "PreviewUrl": "https://pro-bandey.github.io/Quantix/",
     "ReadMeIs": true,
     "Banner": "https://repository-images.githubusercontent.com/1157822575/fd37bfe3-834b-4d43-9da4-7c2ddde45c22",
-    "Commits": 15,
+    "Commits": 16,
     "Stars": 0,
     "Forks": 0
   },
@@ -651,7 +651,7 @@
   {
     "Repo": "Sidebar-Page",
     "Date": "2026-06-22T14:57:09Z",
-    "UpdatedAt": "2026-06-29T14:59:57Z",
+    "UpdatedAt": "2026-07-12T14:33:25Z",
     "Status": "Pub",
     "Desc": "See your desired website in the browser side panel.",
     "Langs": {
@@ -667,7 +667,7 @@
     "PreviewUrl": "",
     "ReadMeIs": true,
     "Banner": "https://repository-images.githubusercontent.com/1277073547/99c575b1-6ab4-489e-9013-53bd26cdf9cf",
-    "Commits": 3,
+    "Commits": 4,
     "Stars": 0,
     "Forks": 0
   },
@@ -800,7 +800,7 @@
   {
     "Repo": "TxtEdit",
     "Date": "2026-06-04T03:03:37Z",
-    "UpdatedAt": "2026-06-29T15:00:18Z",
+    "UpdatedAt": "2026-07-12T14:34:02Z",
     "Status": "Pub",
     "Desc": "A free, highly customizable text and code editor that built for your browser.",
     "Langs": {
@@ -816,14 +816,14 @@
     "PreviewUrl": "https://addons.mozilla.org/en-US/firefox/addon/txtedit/",
     "ReadMeIs": true,
     "Banner": "https://repository-images.githubusercontent.com/1258906728/2356b5d6-10ad-4f4d-aa60-ffbaebc2ac46",
-    "Commits": 3,
+    "Commits": 4,
     "Stars": 0,
     "Forks": 0
   },
   {
     "Repo": "UltraPip",
     "Date": "2026-04-20T18:00:11Z",
-    "UpdatedAt": "2026-06-29T15:03:45Z",
+    "UpdatedAt": "2026-07-14T13:03:36Z",
     "Status": "Pub",
     "Desc": "The Ultimate Picture-in-Picture Extension...",
     "Langs": {
@@ -837,14 +837,14 @@
     "PreviewUrl": "",
     "ReadMeIs": true,
     "Banner": "https://repository-images.githubusercontent.com/1216243900/67de1639-43e0-4342-8e5e-4a6a6db38859",
-    "Commits": 5,
+    "Commits": 7,
     "Stars": 0,
     "Forks": 0
   },
   {
     "Repo": "WebGation",
     "Date": "2026-02-09T22:24:27Z",
-    "UpdatedAt": "2026-06-29T15:00:33Z",
+    "UpdatedAt": "2026-07-12T14:35:34Z",
     "Status": "Pub",
     "Desc": "WebGation is a lightweight, high-performance Chrome Extension designed to enhance your browsing speed.",
     "Langs": {
@@ -860,14 +860,14 @@
     "PreviewUrl": "",
     "ReadMeIs": true,
     "Banner": "https://repository-images.githubusercontent.com/1153986557/0284cc47-55cf-4378-9f2c-eb4163ee0b8d",
-    "Commits": 21,
+    "Commits": 22,
     "Stars": 0,
     "Forks": 0
   },
   {
     "Repo": "WebGator",
     "Date": "2025-12-18T17:54:21Z",
-    "UpdatedAt": "2026-06-29T15:02:19Z",
+    "UpdatedAt": "2026-07-12T14:35:50Z",
     "Status": "Pub",
     "Desc": "A simple Chrome extension that provides a floating navigation bar with **Back**, **Forward**, and **Reload** **Home** buttons. ",
     "Langs": {
@@ -883,7 +883,7 @@
     "PreviewUrl": "",
     "ReadMeIs": true,
     "Banner": "https://repository-images.githubusercontent.com/1119078808/92892614-2d88-4d4e-8426-37b3f682b5fc",
-    "Commits": 30,
+    "Commits": 31,
     "Stars": 0,
     "Forks": 0
   },
