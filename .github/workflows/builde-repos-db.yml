@@ -1,4 +1,4 @@
-name: Build Repositories Database
+name: Build Metadata Database
 
 on:
   schedule:
@@ -27,9 +27,6 @@ jobs:
           script: |
             const fs = require('fs');
 
-            // Utility to handle API rate limits via delay
-            const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
-
             async function generateDatabase() {
               const username = 'Pro-bandey';
 
@@ -40,170 +37,167 @@ jobs:
                 '.github'
               ].map(repo => repo.toLowerCase().trim());
 
-              console.log(`Fetching repositories for ${username}...`);
-
-              // Fetch all public repositories
-              const reposResponse = await github.rest.repos.listForUser({
-                username: username,
-                type: 'public',
-                per_page: 100
-              });
-
-              // Filter repositories BEFORE processing
-              const repositories = reposResponse.data.filter(repo => {
-                const repoName = repo.name.toLowerCase().trim();
-
-                // Skip private repositories
-                if (repo.private) {
-                  console.log(`Skipping private repository: ${repo.name}`);
-                  return false;
+              console.log(`Fetching user profile for ${username} via GraphQL...`);
+              const userQuery = `
+                query($username: String!) {
+                  user(login: $username) {
+                    login
+                    avatarUrl
+                    name
+                    bio
+                    followers {
+                      totalCount
+                    }
+                    following {
+                      totalCount
+                    }
+                    repositories(privacy: PUBLIC) {
+                      totalCount
+                    }
+                    createdAt
+                    websiteUrl
+                  }
                 }
+              `;
 
-                // Skip excluded repositories
-                if (excludedRepos.includes(repoName)) {
-                  console.log(`Skipping excluded repository: ${repo.name}`);
-                  return false;
-                }
-
-                return true;
-              });
-
-              console.log(
-                'Repositories after filtering:',
-                repositories.map(r => r.name)
-              );
-
-              const db = [];
-              const repoDetails = {};
-
+              let userData = null;
               try {
-                console.log('Fetching repository GraphQL details (batched)...');
-                
-                // Batch GraphQL query to avoid secondary rate limits
-                const batchSize = 10;
-                for (let i = 0; i < repositories.length; i += batchSize) {
-                  const batch = repositories.slice(i, i + batchSize);
-                  
-                  // Construct dynamic aliases for the batched query
-                  let queryFragments = batch.map((repo, idx) => `
-                    repo_${idx}: repository(owner: "${username}", name: "${repo.name}") {
-                      name
-                      openGraphImageUrl
-                      defaultBranchRef {
-                        target {
-                          ... on Commit {
-                            history {
-                              totalCount
+                const userResult = await github.graphql(userQuery, { username: username });
+                if (userResult && userResult.user) {
+                  const u = userResult.user;
+                  userData = {
+                    login: u.login,
+                    avatar_url: u.avatarUrl,
+                    name: u.name || 'Pro Bandey',
+                    bio: u.bio || '',
+                    public_repos: u.repositories?.totalCount || 0,
+                    followers: u.followers?.totalCount || 0,
+                    following: u.following?.totalCount || 0,
+                    location: '', // Explicitly set empty as requested
+                    blog: u.websiteUrl || 'https://pro-bandey.github.io',
+                    created_at: u.createdAt
+                  };
+                }
+              } catch (err) {
+                console.warn('Could not fetch user profile details:', err);
+              }
+
+              console.log(`Fetching repositories and metadata for ${username} via GraphQL...`);
+
+              const query = `
+                query($username: String!) {
+                  user(login: $username) {
+                    repositories(first: 100, privacy: PUBLIC) {
+                      nodes {
+                        name
+                        createdAt
+                        pushedAt
+                        isPrivate
+                        isArchived
+                        description
+                        homepageUrl
+                        stargazerCount
+                        forkCount
+                        openGraphImageUrl
+                        readmeMD: object(expression: "HEAD:README.md") { __typename }
+                        readmeMarkdown: object(expression: "HEAD:README.markdown") { __typename }
+                        readmeTxt: object(expression: "HEAD:README.txt") { __typename }
+                        readmeRaw: object(expression: "HEAD:README") { __typename }
+                        languages(first: 20, orderBy: {field: SIZE, direction: DESC}) {
+                          edges {
+                            size
+                            node {
+                              name
+                            }
+                          }
+                        }
+                        defaultBranchRef {
+                          target {
+                            ... on Commit {
+                              history {
+                                totalCount
+                              }
                             }
                           }
                         }
                       }
                     }
-                  `).join('\n');
-                  
-                  const query = `query { ${queryFragments} }`;
-                  
-                  const result = await github.graphql(query);
-                  
-                  // Extract results back to our map
-                  Object.values(result).forEach(node => {
-                    if (node && node.name) {
-                      repoDetails[node.name] = {
-                        ogImage: node.openGraphImageUrl,
-                        commits: node.defaultBranchRef?.target?.history?.totalCount || 0
-                      };
-                    }
-                  });
-                  
-                  // Sleep between batches to prevent secondary rate limiting
-                  console.log(`Batch fetched. Sleeping for 1000ms...`);
-                  await sleep(1000);
-                }
-              } catch (err) {
-                console.warn(
-                  'Could not fetch GraphQL details:',
-                  err.message
-                );
-              }
-
-              // Process repositories sequentially with deliberate pacing
-              for (const repo of repositories) {
-                console.log(`Processing: ${repo.name}`);
-
-                // Fetch languages
-                let languagesData = {};
-                let languageBytes = {};
-
-                try {
-                  const langResponse = await github.rest.repos.listLanguages({
-                    owner: username,
-                    repo: repo.name
-                  });
-
-                  const languages = langResponse.data;
-
-                  const totalBytes = Object.values(languages).reduce(
-                    (a, b) => a + b,
-                    0
-                  );
-
-                  if (totalBytes > 0) {
-                    for (const [lang, bytes] of Object.entries(languages)) {
-                      languagesData[lang] = parseFloat(
-                        ((bytes / totalBytes) * 100).toFixed(1)
-                      );
-                      languageBytes[lang] = bytes;
-                    }
                   }
-                } catch (err) {
-                  console.warn(
-                    `Could not fetch languages for ${repo.name}:`,
-                    err.message
-                  );
+                }
+              `;
+
+              const result = await github.graphql(query, { username: username });
+              const repositories = result.user.repositories.nodes;
+
+              console.log(
+                'Fetched repositories:',
+                repositories.map(r => r.name)
+              );
+
+              const reposList = [];
+
+              for (const repo of repositories) {
+                const repoName = repo.name.toLowerCase().trim();
+
+                // Skip private repositories just in case
+                if (repo.isPrivate) {
+                  console.log(`Skipping private repository: ${repo.name}`);
+                  continue;
+                }
+
+                // Skip excluded repositories
+                if (excludedRepos.includes(repoName)) {
+                  console.log(`Skipping excluded repository: ${repo.name}`);
+                  continue;
                 }
 
                 // Check README existence
-                let readmeExists = false;
+                const readmeExists = !!(repo.readmeMD || repo.readmeMarkdown || repo.readmeTxt || repo.readmeRaw);
 
-                try {
-                  await github.rest.repos.getReadme({
-                    owner: username,
-                    repo: repo.name
-                  });
-
-                  readmeExists = true;
-                } catch (err) {
-                  readmeExists = false;
+                // Process languages
+                const languagesData = {};
+                const languageBytes = {};
+                if (repo.languages && repo.languages.edges) {
+                  const totalBytes = repo.languages.edges.reduce((sum, edge) => sum + edge.size, 0);
+                  if (totalBytes > 0) {
+                    for (const edge of repo.languages.edges) {
+                      const lang = edge.node.name;
+                      const bytes = edge.size;
+                      languagesData[lang] = parseFloat(((bytes / totalBytes) * 100).toFixed(1));
+                      languageBytes[lang] = bytes;
+                    }
+                  }
                 }
 
-                const details = repoDetails[repo.name] || {};
-
                 // Add repository to database
-                db.push({
+                reposList.push({
                   Repo: repo.name,
-                  Date: repo.created_at,
-                  UpdatedAt: repo.pushed_at || repo.updated_at,
+                  Date: repo.createdAt,
+                  UpdatedAt: repo.pushedAt || repo.createdAt,
                   Status: 'Pub',
                   Desc: repo.description || 'No description provided.',
                   Langs: languagesData,
                   LangBytes: languageBytes,
-                  PreviewUrl: repo.homepage || '',
+                  PreviewUrl: repo.homepageUrl || '',
                   ReadMeIs: readmeExists,
-                  Banner: details.ogImage || '',
-                  Commits: details.commits || 0,
-                  Stars: repo.stargazers_count || 0,
-                  Forks: repo.forks_count || 0
+                  Banner: repo.openGraphImageUrl || '',
+                  Commits: repo.defaultBranchRef?.target?.history?.totalCount || 0,
+                  Stars: repo.stargazerCount || 0,
+                  Forks: repo.forkCount || 0,
+                  Archived: repo.isArchived || false
                 });
-
-                // Crucial: Sleep 1.5s between REST API requests to respect GitHub Secondary Rate Limits
-                await sleep(1500);
               }
 
-              // Save db.json
-              fs.writeFileSync('db.json', JSON.stringify(db, null, 2));
+              // Save unified JSON database
+              const outputDb = {
+                user: userData,
+                repos: reposList
+              };
+
+              fs.writeFileSync('db.json', JSON.stringify(outputDb, null, 2));
 
               console.log(
-                `Successfully created db.json with ${db.length} records.`
+                `Successfully created db.json with ${reposList.length} repository records and user profile.`
               );
             }
 
