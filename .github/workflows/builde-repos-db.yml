@@ -34,23 +34,10 @@ jobs:
               const excludedRepos = [
                 'pro-bandey',
                 'pro-bandey.github.io',
-                '.github',
-                'Craft',
-                'Dazzle',
-                'e-com',
-                'ExtensionsReDev',
-                'Flat',
-                'FontAstic',
-                'Fusion',
-                'Lounge',
-                'MakeFav',
-                'minimalistic-wallpapers',
-                'My-Folio',
-                'StartUp',
-                'Zeniod'
+                '.github'
               ].map(repo => repo.toLowerCase().trim());
 
-              console.log(`Fetching user profile and contribution years for ${username} via GraphQL...`);
+              console.log(`Fetching user profile for ${username} via GraphQL...`);
               const userQuery = `
                 query($username: String!) {
                   user(login: $username) {
@@ -69,7 +56,17 @@ jobs:
                     }
                     createdAt
                     websiteUrl
-                    contributionYears
+                    contributionsCollection {
+                      contributionCalendar {
+                        totalContributions
+                        weeks {
+                          contributionDays {
+                            contributionCount
+                            date
+                          }
+                        }
+                      }
+                    }
                   }
                 }
               `;
@@ -79,64 +76,21 @@ jobs:
                 const userResult = await github.graphql(userQuery, { username: username });
                 if (userResult && userResult.user) {
                   const u = userResult.user;
-                  const years = u.contributionYears || [];
-                  console.log(`Resolved contribution years for ${username}:`, years);
-
-                  let totalContributionsAllTime = 0;
+                  const calendar = u.contributionsCollection?.contributionCalendar || {};
+                  const totalContributions = calendar.totalContributions || 0;
                   const contributions = [];
-
-                  // Fetch contributions for each year to fetch all activities historically
-                  for (const year of years) {
-                    console.log(`Fetching contributions calendar for year ${year}...`);
-                    const yearQuery = `
-                      query($username: String!, $from: DateTime!, $to: DateTime!) {
-                        user(login: $username) {
-                          contributionsCollection(from: $from, to: $to) {
-                            contributionCalendar {
-                              totalContributions
-                              weeks {
-                                contributionDays {
-                                  contributionCount
-                                  date
-                                }
-                              }
-                            }
-                          }
+                  if (calendar.weeks) {
+                    for (const week of calendar.weeks) {
+                      if (week.contributionDays) {
+                        for (const day of week.contributionDays) {
+                          contributions.push({
+                            count: day.contributionCount,
+                            date: day.date
+                          });
                         }
                       }
-                    `;
-                    const fromDate = `${year}-01-01T00:00:00Z`;
-                    const toDate = `${year}-12-31T23:59:59Z`;
-
-                    try {
-                      const yearResult = await github.graphql(yearQuery, {
-                        username: username,
-                        from: fromDate,
-                        to: toDate
-                      });
-                      const calendar = yearResult?.user?.contributionsCollection?.contributionCalendar;
-                      if (calendar) {
-                        totalContributionsAllTime += calendar.totalContributions || 0;
-                        if (calendar.weeks) {
-                          for (const week of calendar.weeks) {
-                            if (week.contributionDays) {
-                              for (const day of week.contributionDays) {
-                                contributions.push({
-                                  count: day.contributionCount,
-                                  date: day.date
-                                });
-                              }
-                            }
-                          }
-                        }
-                      }
-                    } catch (yearErr) {
-                      console.warn(`Could not fetch contributions for year ${year}:`, yearErr);
                     }
                   }
-
-                  // Sort contributions chronologically
-                  contributions.sort((a, b) => new Date(a.date) - new Date(b.date));
 
                   userData = {
                     login: u.login,
@@ -149,7 +103,7 @@ jobs:
                     location: 'Delhi, India',
                     blog: u.websiteUrl || 'https://pro-bandey.github.io',
                     created_at: u.createdAt,
-                    total_contributions: totalContributionsAllTime,
+                    total_contributions: totalContributions,
                     contributions: contributions
                   };
                 }
@@ -157,9 +111,9 @@ jobs:
                 console.warn('Could not fetch user profile details:', err);
               }
 
-              console.log(`Fetching repositories and metadata for ${username} and specified organizations via GraphQL...`);
+              console.log(`Fetching repositories and metadata for ${username} via GraphQL...`);
 
-              const accounts = ['Pro-Bandey', 'MainRoute-Core', 'GGCOkara', 'GitFolderDownloader'];
+              const accounts = ['Pro-Bandey'];
               const repositories = [];
 
               for (const account of accounts) {
@@ -168,7 +122,7 @@ jobs:
                   const ownerQuery = `
                     query($login: String!) {
                       repositoryOwner(login: $login) {
-                        repositories(first: 100, privacy: PUBLIC, ownerAffiliations: [OWNER]) {
+                        repositories(first: 100, privacy: PUBLIC) {
                           nodes {
                             name
                             createdAt
@@ -180,9 +134,6 @@ jobs:
                             stargazerCount
                             forkCount
                             openGraphImageUrl
-                            owner {
-                              login
-                            }
                             readmeMD: object(expression: "HEAD:README.md") { __typename }
                             readmeMarkdown: object(expression: "HEAD:README.markdown") { __typename }
                             readmeTxt: object(expression: "HEAD:README.txt") { __typename }
@@ -213,16 +164,7 @@ jobs:
                   if (result && result.repositoryOwner && result.repositoryOwner.repositories) {
                     const nodes = result.repositoryOwner.repositories.nodes || [];
                     console.log(`Fetched ${nodes.length} repositories for ${account}`);
-                    
-                    // Filter repositories to ensure they are strictly owned by the requested account
-                    const filteredNodes = nodes.filter(node => {
-                      const nodeOwner = node.owner?.login?.toLowerCase().trim();
-                      const targetOwner = account.toLowerCase().trim();
-                      return nodeOwner === targetOwner;
-                    });
-                    
-                    console.log(`Retained ${filteredNodes.length} strictly owned repositories for ${account}`);
-                    repositories.push(...filteredNodes);
+                    repositories.push(...nodes);
                   } else {
                     console.warn(`No repositories returned for ${account}. GraphQL result:`, result);
                   }
@@ -232,7 +174,7 @@ jobs:
               }
 
               console.log(
-                'Fetched total repositories across all target accounts:',
+                'Fetched total repositories:',
                 repositories.map(r => r.name)
               );
 
@@ -274,7 +216,6 @@ jobs:
                 // Add repository to database
                 reposList.push({
                   Repo: repo.name,
-                  Owner: repo.owner?.login || 'Pro-Bandey',
                   Date: repo.createdAt,
                   UpdatedAt: repo.pushedAt || repo.createdAt,
                   Status: 'Pub',
