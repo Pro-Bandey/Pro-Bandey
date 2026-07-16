@@ -1,2845 +1,578 @@
-{
-  "user": {
-    "login": "Pro-Bandey",
-    "avatar_url": "https://avatars.githubusercontent.com/u/195909043?u=89b3afd098779e9a2b8a55e4a5de141ac29c36c3&v=4",
-    "name": "Pro Bandey",
-    "bio": "Practical | Performent | Proven",
-    "public_repos": 61,
-    "followers": 2,
-    "following": 0,
-    "location": "Delhi, India",
-    "blog": "https://Pro-Bandey.github.io/",
-    "created_at": "2025-01-21T13:14:21Z",
-    "total_contributions": 1847,
-    "contributions": [
-      {
-        "count": 0,
-        "date": "2025-07-13"
-      },
-      {
-        "count": 0,
-        "date": "2025-07-14"
-      },
-      {
-        "count": 0,
-        "date": "2025-07-15"
-      },
-      {
-        "count": 0,
-        "date": "2025-07-16"
-      },
-      {
-        "count": 0,
-        "date": "2025-07-17"
-      },
-      {
-        "count": 0,
-        "date": "2025-07-18"
-      },
-      {
-        "count": 0,
-        "date": "2025-07-19"
-      },
-      {
-        "count": 0,
-        "date": "2025-07-20"
-      },
-      {
-        "count": 0,
-        "date": "2025-07-21"
-      },
-      {
-        "count": 0,
-        "date": "2025-07-22"
-      },
-      {
-        "count": 0,
-        "date": "2025-07-23"
-      },
-      {
-        "count": 0,
-        "date": "2025-07-24"
-      },
-      {
-        "count": 0,
-        "date": "2025-07-25"
-      },
-      {
-        "count": 0,
-        "date": "2025-07-26"
-      },
-      {
-        "count": 0,
-        "date": "2025-07-27"
-      },
-      {
-        "count": 0,
-        "date": "2025-07-28"
-      },
-      {
-        "count": 0,
-        "date": "2025-07-29"
-      },
-      {
-        "count": 0,
-        "date": "2025-07-30"
-      },
-      {
-        "count": 0,
-        "date": "2025-07-31"
-      },
-      {
-        "count": 0,
-        "date": "2025-08-01"
-      },
-      {
-        "count": 0,
-        "date": "2025-08-02"
-      },
-      {
-        "count": 0,
-        "date": "2025-08-03"
-      },
-      {
-        "count": 0,
-        "date": "2025-08-04"
-      },
-      {
-        "count": 0,
-        "date": "2025-08-05"
-      },
-      {
-        "count": 0,
-        "date": "2025-08-06"
-      },
-      {
-        "count": 0,
-        "date": "2025-08-07"
-      },
-      {
-        "count": 0,
-        "date": "2025-08-08"
-      },
-      {
-        "count": 0,
-        "date": "2025-08-09"
-      },
-      {
-        "count": 0,
-        "date": "2025-08-10"
-      },
-      {
-        "count": 0,
-        "date": "2025-08-11"
-      },
-      {
-        "count": 0,
-        "date": "2025-08-12"
-      },
-      {
-        "count": 0,
-        "date": "2025-08-13"
-      },
-      {
-        "count": 0,
-        "date": "2025-08-14"
-      },
-      {
-        "count": 0,
-        "date": "2025-08-15"
-      },
-      {
-        "count": 0,
-        "date": "2025-08-16"
-      },
-      {
-        "count": 0,
-        "date": "2025-08-17"
-      },
-      {
-        "count": 0,
-        "date": "2025-08-18"
-      },
-      {
-        "count": 0,
-        "date": "2025-08-19"
-      },
-      {
-        "count": 0,
-        "date": "2025-08-20"
-      },
-      {
-        "count": 0,
-        "date": "2025-08-21"
-      },
-      {
-        "count": 0,
-        "date": "2025-08-22"
-      },
-      {
-        "count": 0,
-        "date": "2025-08-23"
-      },
-      {
-        "count": 0,
-        "date": "2025-08-24"
-      },
-      {
-        "count": 0,
-        "date": "2025-08-25"
-      },
-      {
-        "count": 0,
-        "date": "2025-08-26"
-      },
-      {
-        "count": 0,
-        "date": "2025-08-27"
-      },
-      {
-        "count": 0,
-        "date": "2025-08-28"
-      },
-      {
-        "count": 0,
-        "date": "2025-08-29"
-      },
-      {
-        "count": 0,
-        "date": "2025-08-30"
-      },
-      {
-        "count": 0,
-        "date": "2025-08-31"
-      },
-      {
-        "count": 0,
-        "date": "2025-09-01"
-      },
-      {
-        "count": 0,
-        "date": "2025-09-02"
-      },
-      {
-        "count": 0,
-        "date": "2025-09-03"
-      },
-      {
-        "count": 0,
-        "date": "2025-09-04"
-      },
-      {
-        "count": 0,
-        "date": "2025-09-05"
-      },
-      {
-        "count": 0,
-        "date": "2025-09-06"
-      },
-      {
-        "count": 0,
-        "date": "2025-09-07"
-      },
-      {
-        "count": 0,
-        "date": "2025-09-08"
-      },
-      {
-        "count": 0,
-        "date": "2025-09-09"
-      },
-      {
-        "count": 0,
-        "date": "2025-09-10"
-      },
-      {
-        "count": 0,
-        "date": "2025-09-11"
-      },
-      {
-        "count": 0,
-        "date": "2025-09-12"
-      },
-      {
-        "count": 0,
-        "date": "2025-09-13"
-      },
-      {
-        "count": 0,
-        "date": "2025-09-14"
-      },
-      {
-        "count": 0,
-        "date": "2025-09-15"
-      },
-      {
-        "count": 0,
-        "date": "2025-09-16"
-      },
-      {
-        "count": 0,
-        "date": "2025-09-17"
-      },
-      {
-        "count": 0,
-        "date": "2025-09-18"
-      },
-      {
-        "count": 0,
-        "date": "2025-09-19"
-      },
-      {
-        "count": 0,
-        "date": "2025-09-20"
-      },
-      {
-        "count": 0,
-        "date": "2025-09-21"
-      },
-      {
-        "count": 0,
-        "date": "2025-09-22"
-      },
-      {
-        "count": 0,
-        "date": "2025-09-23"
-      },
-      {
-        "count": 0,
-        "date": "2025-09-24"
-      },
-      {
-        "count": 0,
-        "date": "2025-09-25"
-      },
-      {
-        "count": 0,
-        "date": "2025-09-26"
-      },
-      {
-        "count": 0,
-        "date": "2025-09-27"
-      },
-      {
-        "count": 0,
-        "date": "2025-09-28"
-      },
-      {
-        "count": 0,
-        "date": "2025-09-29"
-      },
-      {
-        "count": 0,
-        "date": "2025-09-30"
-      },
-      {
-        "count": 0,
-        "date": "2025-10-01"
-      },
-      {
-        "count": 0,
-        "date": "2025-10-02"
-      },
-      {
-        "count": 0,
-        "date": "2025-10-03"
-      },
-      {
-        "count": 0,
-        "date": "2025-10-04"
-      },
-      {
-        "count": 0,
-        "date": "2025-10-05"
-      },
-      {
-        "count": 0,
-        "date": "2025-10-06"
-      },
-      {
-        "count": 0,
-        "date": "2025-10-07"
-      },
-      {
-        "count": 0,
-        "date": "2025-10-08"
-      },
-      {
-        "count": 0,
-        "date": "2025-10-09"
-      },
-      {
-        "count": 0,
-        "date": "2025-10-10"
-      },
-      {
-        "count": 0,
-        "date": "2025-10-11"
-      },
-      {
-        "count": 0,
-        "date": "2025-10-12"
-      },
-      {
-        "count": 0,
-        "date": "2025-10-13"
-      },
-      {
-        "count": 0,
-        "date": "2025-10-14"
-      },
-      {
-        "count": 0,
-        "date": "2025-10-15"
-      },
-      {
-        "count": 0,
-        "date": "2025-10-16"
-      },
-      {
-        "count": 0,
-        "date": "2025-10-17"
-      },
-      {
-        "count": 0,
-        "date": "2025-10-18"
-      },
-      {
-        "count": 58,
-        "date": "2025-10-19"
-      },
-      {
-        "count": 3,
-        "date": "2025-10-20"
-      },
-      {
-        "count": 4,
-        "date": "2025-10-21"
-      },
-      {
-        "count": 0,
-        "date": "2025-10-22"
-      },
-      {
-        "count": 0,
-        "date": "2025-10-23"
-      },
-      {
-        "count": 1,
-        "date": "2025-10-24"
-      },
-      {
-        "count": 0,
-        "date": "2025-10-25"
-      },
-      {
-        "count": 17,
-        "date": "2025-10-26"
-      },
-      {
-        "count": 1,
-        "date": "2025-10-27"
-      },
-      {
-        "count": 0,
-        "date": "2025-10-28"
-      },
-      {
-        "count": 0,
-        "date": "2025-10-29"
-      },
-      {
-        "count": 0,
-        "date": "2025-10-30"
-      },
-      {
-        "count": 0,
-        "date": "2025-10-31"
-      },
-      {
-        "count": 1,
-        "date": "2025-11-01"
-      },
-      {
-        "count": 0,
-        "date": "2025-11-02"
-      },
-      {
-        "count": 0,
-        "date": "2025-11-03"
-      },
-      {
-        "count": 0,
-        "date": "2025-11-04"
-      },
-      {
-        "count": 3,
-        "date": "2025-11-05"
-      },
-      {
-        "count": 0,
-        "date": "2025-11-06"
-      },
-      {
-        "count": 0,
-        "date": "2025-11-07"
-      },
-      {
-        "count": 3,
-        "date": "2025-11-08"
-      },
-      {
-        "count": 5,
-        "date": "2025-11-09"
-      },
-      {
-        "count": 0,
-        "date": "2025-11-10"
-      },
-      {
-        "count": 0,
-        "date": "2025-11-11"
-      },
-      {
-        "count": 2,
-        "date": "2025-11-12"
-      },
-      {
-        "count": 0,
-        "date": "2025-11-13"
-      },
-      {
-        "count": 0,
-        "date": "2025-11-14"
-      },
-      {
-        "count": 5,
-        "date": "2025-11-15"
-      },
-      {
-        "count": 19,
-        "date": "2025-11-16"
-      },
-      {
-        "count": 11,
-        "date": "2025-11-17"
-      },
-      {
-        "count": 1,
-        "date": "2025-11-18"
-      },
-      {
-        "count": 1,
-        "date": "2025-11-19"
-      },
-      {
-        "count": 1,
-        "date": "2025-11-20"
-      },
-      {
-        "count": 0,
-        "date": "2025-11-21"
-      },
-      {
-        "count": 0,
-        "date": "2025-11-22"
-      },
-      {
-        "count": 0,
-        "date": "2025-11-23"
-      },
-      {
-        "count": 25,
-        "date": "2025-11-24"
-      },
-      {
-        "count": 0,
-        "date": "2025-11-25"
-      },
-      {
-        "count": 6,
-        "date": "2025-11-26"
-      },
-      {
-        "count": 2,
-        "date": "2025-11-27"
-      },
-      {
-        "count": 0,
-        "date": "2025-11-28"
-      },
-      {
-        "count": 0,
-        "date": "2025-11-29"
-      },
-      {
-        "count": 0,
-        "date": "2025-11-30"
-      },
-      {
-        "count": 0,
-        "date": "2025-12-01"
-      },
-      {
-        "count": 2,
-        "date": "2025-12-02"
-      },
-      {
-        "count": 2,
-        "date": "2025-12-03"
-      },
-      {
-        "count": 1,
-        "date": "2025-12-04"
-      },
-      {
-        "count": 1,
-        "date": "2025-12-05"
-      },
-      {
-        "count": 0,
-        "date": "2025-12-06"
-      },
-      {
-        "count": 3,
-        "date": "2025-12-07"
-      },
-      {
-        "count": 1,
-        "date": "2025-12-08"
-      },
-      {
-        "count": 0,
-        "date": "2025-12-09"
-      },
-      {
-        "count": 48,
-        "date": "2025-12-10"
-      },
-      {
-        "count": 0,
-        "date": "2025-12-11"
-      },
-      {
-        "count": 0,
-        "date": "2025-12-12"
-      },
-      {
-        "count": 11,
-        "date": "2025-12-13"
-      },
-      {
-        "count": 18,
-        "date": "2025-12-14"
-      },
-      {
-        "count": 5,
-        "date": "2025-12-15"
-      },
-      {
-        "count": 14,
-        "date": "2025-12-16"
-      },
-      {
-        "count": 15,
-        "date": "2025-12-17"
-      },
-      {
-        "count": 26,
-        "date": "2025-12-18"
-      },
-      {
-        "count": 23,
-        "date": "2025-12-19"
-      },
-      {
-        "count": 23,
-        "date": "2025-12-20"
-      },
-      {
-        "count": 12,
-        "date": "2025-12-21"
-      },
-      {
-        "count": 0,
-        "date": "2025-12-22"
-      },
-      {
-        "count": 6,
-        "date": "2025-12-23"
-      },
-      {
-        "count": 14,
-        "date": "2025-12-24"
-      },
-      {
-        "count": 0,
-        "date": "2025-12-25"
-      },
-      {
-        "count": 1,
-        "date": "2025-12-26"
-      },
-      {
-        "count": 15,
-        "date": "2025-12-27"
-      },
-      {
-        "count": 0,
-        "date": "2025-12-28"
-      },
-      {
-        "count": 2,
-        "date": "2025-12-29"
-      },
-      {
-        "count": 0,
-        "date": "2025-12-30"
-      },
-      {
-        "count": 9,
-        "date": "2025-12-31"
-      },
-      {
-        "count": 20,
-        "date": "2026-01-01"
-      },
-      {
-        "count": 18,
-        "date": "2026-01-02"
-      },
-      {
-        "count": 16,
-        "date": "2026-01-03"
-      },
-      {
-        "count": 8,
-        "date": "2026-01-04"
-      },
-      {
-        "count": 0,
-        "date": "2026-01-05"
-      },
-      {
-        "count": 9,
-        "date": "2026-01-06"
-      },
-      {
-        "count": 9,
-        "date": "2026-01-07"
-      },
-      {
-        "count": 1,
-        "date": "2026-01-08"
-      },
-      {
-        "count": 6,
-        "date": "2026-01-09"
-      },
-      {
-        "count": 2,
-        "date": "2026-01-10"
-      },
-      {
-        "count": 0,
-        "date": "2026-01-11"
-      },
-      {
-        "count": 4,
-        "date": "2026-01-12"
-      },
-      {
-        "count": 13,
-        "date": "2026-01-13"
-      },
-      {
-        "count": 3,
-        "date": "2026-01-14"
-      },
-      {
-        "count": 3,
-        "date": "2026-01-15"
-      },
-      {
-        "count": 12,
-        "date": "2026-01-16"
-      },
-      {
-        "count": 15,
-        "date": "2026-01-17"
-      },
-      {
-        "count": 4,
-        "date": "2026-01-18"
-      },
-      {
-        "count": 2,
-        "date": "2026-01-19"
-      },
-      {
-        "count": 0,
-        "date": "2026-01-20"
-      },
-      {
-        "count": 23,
-        "date": "2026-01-21"
-      },
-      {
-        "count": 13,
-        "date": "2026-01-22"
-      },
-      {
-        "count": 3,
-        "date": "2026-01-23"
-      },
-      {
-        "count": 8,
-        "date": "2026-01-24"
-      },
-      {
-        "count": 1,
-        "date": "2026-01-25"
-      },
-      {
-        "count": 5,
-        "date": "2026-01-26"
-      },
-      {
-        "count": 0,
-        "date": "2026-01-27"
-      },
-      {
-        "count": 0,
-        "date": "2026-01-28"
-      },
-      {
-        "count": 0,
-        "date": "2026-01-29"
-      },
-      {
-        "count": 21,
-        "date": "2026-01-30"
-      },
-      {
-        "count": 7,
-        "date": "2026-01-31"
-      },
-      {
-        "count": 8,
-        "date": "2026-02-01"
-      },
-      {
-        "count": 0,
-        "date": "2026-02-02"
-      },
-      {
-        "count": 4,
-        "date": "2026-02-03"
-      },
-      {
-        "count": 7,
-        "date": "2026-02-04"
-      },
-      {
-        "count": 4,
-        "date": "2026-02-05"
-      },
-      {
-        "count": 6,
-        "date": "2026-02-06"
-      },
-      {
-        "count": 17,
-        "date": "2026-02-07"
-      },
-      {
-        "count": 9,
-        "date": "2026-02-08"
-      },
-      {
-        "count": 1,
-        "date": "2026-02-09"
-      },
-      {
-        "count": 4,
-        "date": "2026-02-10"
-      },
-      {
-        "count": 6,
-        "date": "2026-02-11"
-      },
-      {
-        "count": 12,
-        "date": "2026-02-12"
-      },
-      {
-        "count": 0,
-        "date": "2026-02-13"
-      },
-      {
-        "count": 4,
-        "date": "2026-02-14"
-      },
-      {
-        "count": 13,
-        "date": "2026-02-15"
-      },
-      {
-        "count": 12,
-        "date": "2026-02-16"
-      },
-      {
-        "count": 2,
-        "date": "2026-02-17"
-      },
-      {
-        "count": 7,
-        "date": "2026-02-18"
-      },
-      {
-        "count": 1,
-        "date": "2026-02-19"
-      },
-      {
-        "count": 3,
-        "date": "2026-02-20"
-      },
-      {
-        "count": 5,
-        "date": "2026-02-21"
-      },
-      {
-        "count": 20,
-        "date": "2026-02-22"
-      },
-      {
-        "count": 12,
-        "date": "2026-02-23"
-      },
-      {
-        "count": 2,
-        "date": "2026-02-24"
-      },
-      {
-        "count": 16,
-        "date": "2026-02-25"
-      },
-      {
-        "count": 5,
-        "date": "2026-02-26"
-      },
-      {
-        "count": 10,
-        "date": "2026-02-27"
-      },
-      {
-        "count": 0,
-        "date": "2026-02-28"
-      },
-      {
-        "count": 6,
-        "date": "2026-03-01"
-      },
-      {
-        "count": 9,
-        "date": "2026-03-02"
-      },
-      {
-        "count": 6,
-        "date": "2026-03-03"
-      },
-      {
-        "count": 6,
-        "date": "2026-03-04"
-      },
-      {
-        "count": 1,
-        "date": "2026-03-05"
-      },
-      {
-        "count": 3,
-        "date": "2026-03-06"
-      },
-      {
-        "count": 2,
-        "date": "2026-03-07"
-      },
-      {
-        "count": 6,
-        "date": "2026-03-08"
-      },
-      {
-        "count": 7,
-        "date": "2026-03-09"
-      },
-      {
-        "count": 17,
-        "date": "2026-03-10"
-      },
-      {
-        "count": 15,
-        "date": "2026-03-11"
-      },
-      {
-        "count": 6,
-        "date": "2026-03-12"
-      },
-      {
-        "count": 18,
-        "date": "2026-03-13"
-      },
-      {
-        "count": 1,
-        "date": "2026-03-14"
-      },
-      {
-        "count": 14,
-        "date": "2026-03-15"
-      },
-      {
-        "count": 0,
-        "date": "2026-03-16"
-      },
-      {
-        "count": 0,
-        "date": "2026-03-17"
-      },
-      {
-        "count": 18,
-        "date": "2026-03-18"
-      },
-      {
-        "count": 3,
-        "date": "2026-03-19"
-      },
-      {
-        "count": 4,
-        "date": "2026-03-20"
-      },
-      {
-        "count": 0,
-        "date": "2026-03-21"
-      },
-      {
-        "count": 0,
-        "date": "2026-03-22"
-      },
-      {
-        "count": 0,
-        "date": "2026-03-23"
-      },
-      {
-        "count": 0,
-        "date": "2026-03-24"
-      },
-      {
-        "count": 0,
-        "date": "2026-03-25"
-      },
-      {
-        "count": 1,
-        "date": "2026-03-26"
-      },
-      {
-        "count": 5,
-        "date": "2026-03-27"
-      },
-      {
-        "count": 7,
-        "date": "2026-03-28"
-      },
-      {
-        "count": 10,
-        "date": "2026-03-29"
-      },
-      {
-        "count": 6,
-        "date": "2026-03-30"
-      },
-      {
-        "count": 2,
-        "date": "2026-03-31"
-      },
-      {
-        "count": 2,
-        "date": "2026-04-01"
-      },
-      {
-        "count": 0,
-        "date": "2026-04-02"
-      },
-      {
-        "count": 12,
-        "date": "2026-04-03"
-      },
-      {
-        "count": 2,
-        "date": "2026-04-04"
-      },
-      {
-        "count": 4,
-        "date": "2026-04-05"
-      },
-      {
-        "count": 1,
-        "date": "2026-04-06"
-      },
-      {
-        "count": 0,
-        "date": "2026-04-07"
-      },
-      {
-        "count": 7,
-        "date": "2026-04-08"
-      },
-      {
-        "count": 5,
-        "date": "2026-04-09"
-      },
-      {
-        "count": 2,
-        "date": "2026-04-10"
-      },
-      {
-        "count": 17,
-        "date": "2026-04-11"
-      },
-      {
-        "count": 3,
-        "date": "2026-04-12"
-      },
-      {
-        "count": 6,
-        "date": "2026-04-13"
-      },
-      {
-        "count": 10,
-        "date": "2026-04-14"
-      },
-      {
-        "count": 4,
-        "date": "2026-04-15"
-      },
-      {
-        "count": 0,
-        "date": "2026-04-16"
-      },
-      {
-        "count": 1,
-        "date": "2026-04-17"
-      },
-      {
-        "count": 15,
-        "date": "2026-04-18"
-      },
-      {
-        "count": 5,
-        "date": "2026-04-19"
-      },
-      {
-        "count": 8,
-        "date": "2026-04-20"
-      },
-      {
-        "count": 0,
-        "date": "2026-04-21"
-      },
-      {
-        "count": 9,
-        "date": "2026-04-22"
-      },
-      {
-        "count": 31,
-        "date": "2026-04-23"
-      },
-      {
-        "count": 6,
-        "date": "2026-04-24"
-      },
-      {
-        "count": 3,
-        "date": "2026-04-25"
-      },
-      {
-        "count": 5,
-        "date": "2026-04-26"
-      },
-      {
-        "count": 10,
-        "date": "2026-04-27"
-      },
-      {
-        "count": 6,
-        "date": "2026-04-28"
-      },
-      {
-        "count": 2,
-        "date": "2026-04-29"
-      },
-      {
-        "count": 15,
-        "date": "2026-04-30"
-      },
-      {
-        "count": 4,
-        "date": "2026-05-01"
-      },
-      {
-        "count": 9,
-        "date": "2026-05-02"
-      },
-      {
-        "count": 1,
-        "date": "2026-05-03"
-      },
-      {
-        "count": 25,
-        "date": "2026-05-04"
-      },
-      {
-        "count": 10,
-        "date": "2026-05-05"
-      },
-      {
-        "count": 3,
-        "date": "2026-05-06"
-      },
-      {
-        "count": 1,
-        "date": "2026-05-07"
-      },
-      {
-        "count": 7,
-        "date": "2026-05-08"
-      },
-      {
-        "count": 7,
-        "date": "2026-05-09"
-      },
-      {
-        "count": 5,
-        "date": "2026-05-10"
-      },
-      {
-        "count": 18,
-        "date": "2026-05-11"
-      },
-      {
-        "count": 8,
-        "date": "2026-05-12"
-      },
-      {
-        "count": 6,
-        "date": "2026-05-13"
-      },
-      {
-        "count": 0,
-        "date": "2026-05-14"
-      },
-      {
-        "count": 0,
-        "date": "2026-05-15"
-      },
-      {
-        "count": 0,
-        "date": "2026-05-16"
-      },
-      {
-        "count": 10,
-        "date": "2026-05-17"
-      },
-      {
-        "count": 2,
-        "date": "2026-05-18"
-      },
-      {
-        "count": 10,
-        "date": "2026-05-19"
-      },
-      {
-        "count": 3,
-        "date": "2026-05-20"
-      },
-      {
-        "count": 0,
-        "date": "2026-05-21"
-      },
-      {
-        "count": 0,
-        "date": "2026-05-22"
-      },
-      {
-        "count": 17,
-        "date": "2026-05-23"
-      },
-      {
-        "count": 10,
-        "date": "2026-05-24"
-      },
-      {
-        "count": 0,
-        "date": "2026-05-25"
-      },
-      {
-        "count": 0,
-        "date": "2026-05-26"
-      },
-      {
-        "count": 1,
-        "date": "2026-05-27"
-      },
-      {
-        "count": 0,
-        "date": "2026-05-28"
-      },
-      {
-        "count": 0,
-        "date": "2026-05-29"
-      },
-      {
-        "count": 0,
-        "date": "2026-05-30"
-      },
-      {
-        "count": 0,
-        "date": "2026-05-31"
-      },
-      {
-        "count": 8,
-        "date": "2026-06-01"
-      },
-      {
-        "count": 10,
-        "date": "2026-06-02"
-      },
-      {
-        "count": 5,
-        "date": "2026-06-03"
-      },
-      {
-        "count": 11,
-        "date": "2026-06-04"
-      },
-      {
-        "count": 32,
-        "date": "2026-06-05"
-      },
-      {
-        "count": 19,
-        "date": "2026-06-06"
-      },
-      {
-        "count": 20,
-        "date": "2026-06-07"
-      },
-      {
-        "count": 3,
-        "date": "2026-06-08"
-      },
-      {
-        "count": 12,
-        "date": "2026-06-09"
-      },
-      {
-        "count": 14,
-        "date": "2026-06-10"
-      },
-      {
-        "count": 24,
-        "date": "2026-06-11"
-      },
-      {
-        "count": 9,
-        "date": "2026-06-12"
-      },
-      {
-        "count": 1,
-        "date": "2026-06-13"
-      },
-      {
-        "count": 21,
-        "date": "2026-06-14"
-      },
-      {
-        "count": 5,
-        "date": "2026-06-15"
-      },
-      {
-        "count": 27,
-        "date": "2026-06-16"
-      },
-      {
-        "count": 21,
-        "date": "2026-06-17"
-      },
-      {
-        "count": 43,
-        "date": "2026-06-18"
-      },
-      {
-        "count": 12,
-        "date": "2026-06-19"
-      },
-      {
-        "count": 8,
-        "date": "2026-06-20"
-      },
-      {
-        "count": 1,
-        "date": "2026-06-21"
-      },
-      {
-        "count": 15,
-        "date": "2026-06-22"
-      },
-      {
-        "count": 6,
-        "date": "2026-06-23"
-      },
-      {
-        "count": 10,
-        "date": "2026-06-24"
-      },
-      {
-        "count": 3,
-        "date": "2026-06-25"
-      },
-      {
-        "count": 11,
-        "date": "2026-06-26"
-      },
-      {
-        "count": 0,
-        "date": "2026-06-27"
-      },
-      {
-        "count": 1,
-        "date": "2026-06-28"
-      },
-      {
-        "count": 36,
-        "date": "2026-06-29"
-      },
-      {
-        "count": 1,
-        "date": "2026-06-30"
-      },
-      {
-        "count": 8,
-        "date": "2026-07-01"
-      },
-      {
-        "count": 2,
-        "date": "2026-07-02"
-      },
-      {
-        "count": 5,
-        "date": "2026-07-03"
-      },
-      {
-        "count": 0,
-        "date": "2026-07-04"
-      },
-      {
-        "count": 6,
-        "date": "2026-07-05"
-      },
-      {
-        "count": 14,
-        "date": "2026-07-06"
-      },
-      {
-        "count": 0,
-        "date": "2026-07-07"
-      },
-      {
-        "count": 6,
-        "date": "2026-07-08"
-      },
-      {
-        "count": 0,
-        "date": "2026-07-09"
-      },
-      {
-        "count": 3,
-        "date": "2026-07-10"
-      },
-      {
-        "count": 2,
-        "date": "2026-07-11"
-      },
-      {
-        "count": 20,
-        "date": "2026-07-12"
-      },
-      {
-        "count": 4,
-        "date": "2026-07-13"
-      },
-      {
-        "count": 6,
-        "date": "2026-07-14"
-      },
-      {
-        "count": 18,
-        "date": "2026-07-15"
-      },
-      {
-        "count": 6,
-        "date": "2026-07-16"
-      }
-    ]
+[
+  {
+    "Repo": "Adaptive-Tab-Theme",
+    "Date": "2026-06-02T06:34:48Z",
+    "UpdatedAt": "2026-07-12T14:27:54Z",
+    "Status": "Pub",
+    "Desc": "Changes the color of Firefox theme to match the website’s appearance.",
+    "Langs": {
+      "JavaScript": 61.2,
+      "HTML": 27.1,
+      "CSS": 11.7
+    },
+    "LangBytes": {
+      "JavaScript": 72243,
+      "HTML": 31999,
+      "CSS": 13748
+    },
+    "PreviewUrl": "https://addons.mozilla.org/firefox/addon/adaptive-tab-theme/",
+    "ReadMeIs": true,
+    "Banner": "https://repository-images.githubusercontent.com/1256859461/280f46ed-c60b-45a2-86f5-91075c45bdbd",
+    "Commits": 8,
+    "Stars": 0,
+    "Forks": 0
   },
-  "repos": [
-    {
-      "Repo": "Cursors",
-      "Date": "2024-12-18T18:32:21Z",
-      "UpdatedAt": "2026-05-10T15:26:40Z",
-      "Status": "Pub",
-      "Desc": "Some cursor packs by my Workgroup for windows PCs.",
-      "Langs": {},
-      "LangBytes": {},
-      "PreviewUrl": "",
-      "ReadMeIs": true,
-      "Banner": "https://opengraph.githubassets.com/d24714d9e534ea34b51909650f3cd7e18dadd78c52dc2fc6035e94e2062bf8b4/MegaMind-Solution/Cursors",
-      "Commits": 11,
-      "Stars": 0,
-      "Forks": 0,
-      "Archived": false
+  {
+    "Repo": "Clogs",
+    "Date": "2026-05-09T00:49:34Z",
+    "UpdatedAt": "2026-06-23T16:40:44Z",
+    "Status": "Pub",
+    "Desc": "MainRoute Core Blog Use by https://MainRoute-Core.github.io/Clog/",
+    "Langs": {
+      "JavaScript": 60,
+      "HTML": 23.8,
+      "CSS": 16.2
     },
-    {
-      "Repo": "Chrome-App-Launcher",
-      "Date": "2024-12-23T06:32:21Z",
-      "UpdatedAt": "2026-04-23T13:07:03Z",
-      "Status": "Pub",
-      "Desc": "The best & quick access to Google™ Services and Websites APIs",
-      "Langs": {
-        "HTML": 99.5,
-        "JavaScript": 0.4,
-        "CSS": 0.1
-      },
-      "LangBytes": {
-        "HTML": 23067,
-        "JavaScript": 98,
-        "CSS": 29
-      },
-      "PreviewUrl": "https://megamind-solution.github.io/Chrome-App-Launcher/",
-      "ReadMeIs": true,
-      "Banner": "https://repository-images.githubusercontent.com/907240852/86286ae8-0f9e-4baf-af83-f1bd65362804",
-      "Commits": 11,
-      "Stars": 1,
-      "Forks": 0,
-      "Archived": false
+    "LangBytes": {
+      "JavaScript": 111456,
+      "HTML": 44218,
+      "CSS": 30155
     },
-    {
-      "Repo": "HomePage",
-      "Date": "2025-10-19T08:19:52Z",
-      "UpdatedAt": "2026-07-16T02:38:00Z",
-      "Status": "Pub",
-      "Desc": "A powerful, modern, and feature-packed homepage enhancement built for productivity, speed, and customization.",
-      "Langs": {
-        "HTML": 94.8,
-        "JavaScript": 4.9,
-        "CSS": 0.3
-      },
-      "LangBytes": {
-        "HTML": 2369736,
-        "JavaScript": 122753,
-        "CSS": 7527
-      },
-      "PreviewUrl": "https://pro-bandey.github.io/HomePage/",
-      "ReadMeIs": true,
-      "Banner": "https://repository-images.githubusercontent.com/1079157333/bf3faa4f-6e9a-4d13-bb93-9c44ea9e1444",
-      "Commits": 203,
-      "Stars": 1,
-      "Forks": 0,
-      "Archived": false
+    "PreviewUrl": "https://mainroute-core.github.io/Clogs/Reader/",
+    "ReadMeIs": true,
+    "Banner": "https://repository-images.githubusercontent.com/1233436759/2639fb06-fd01-44f5-a0cb-92a346d32bbd",
+    "Commits": 105,
+    "Stars": 0,
+    "Forks": 0
+  },
+  {
+    "Repo": "ColorPickUp",
+    "Date": "2026-07-05T18:11:34Z",
+    "UpdatedAt": "2026-07-13T13:52:21Z",
+    "Status": "Pub",
+    "Desc": "ColorPickUp is a fast, grid-optimized, and zero-dependency color picker library. Features 16 UI styles, advanced themes, and WCAG accessibility validation.",
+    "Langs": {
+      "JavaScript": 66.5,
+      "CSS": 33.5
     },
-    {
-      "Repo": "HomePage-Lite",
-      "Date": "2025-10-19T11:28:11Z",
-      "UpdatedAt": "2026-07-14T13:11:21Z",
-      "Status": "Pub",
-      "Desc": "HomePage Lite is a lightweight, high-performance browser extension that replaces your default new tab page with a custom, beautifully integrated web dashboard via an iframe.",
-      "Langs": {
-        "JavaScript": 65.8,
-        "CSS": 18.7,
-        "HTML": 15.5
-      },
-      "LangBytes": {
-        "JavaScript": 9109,
-        "CSS": 2593,
-        "HTML": 2151
-      },
-      "PreviewUrl": "https://pro-bandey.github.io/HomePage-Lite/",
-      "ReadMeIs": true,
-      "Banner": "https://repository-images.githubusercontent.com/1079223601/7e7eaf96-82bb-4d7b-a339-9739613b7887",
-      "Commits": 18,
-      "Stars": 1,
-      "Forks": 0,
-      "Archived": false
+    "LangBytes": {
+      "JavaScript": 48993,
+      "CSS": 24669
     },
-    {
-      "Repo": "Dazzle",
-      "Date": "2025-10-20T15:33:53Z",
-      "UpdatedAt": "2026-05-11T17:03:10Z",
-      "Status": "Pub",
-      "Desc": "All help About our all products",
-      "Langs": {
-        "HTML": 52.3,
-        "CSS": 31.2,
-        "JavaScript": 16.6
-      },
-      "LangBytes": {
-        "HTML": 19671,
-        "CSS": 11729,
-        "JavaScript": 6235
-      },
-      "PreviewUrl": "https://mainroute-core.github.io/Dazzle/",
-      "ReadMeIs": false,
-      "Banner": "https://repository-images.githubusercontent.com/1079920427/1a02ef96-636b-4278-ba59-c288791312ba",
-      "Commits": 21,
-      "Stars": 0,
-      "Forks": 0,
-      "Archived": false
+    "PreviewUrl": "https://mainroute-core.github.io/ColorPickUp/",
+    "ReadMeIs": true,
+    "Banner": "https://repository-images.githubusercontent.com/1290227693/d77c00cb-89b4-41df-ba89-9bf42f5d9e50",
+    "Commits": 6,
+    "Stars": 0,
+    "Forks": 0
+  },
+  {
+    "Repo": "CoreSans",
+    "Date": "2026-04-30T06:54:50Z",
+    "UpdatedAt": "2026-04-30T06:54:54Z",
+    "Status": "Pub",
+    "Desc": "Core Sans is Offical Branded and Custom Font of MainRoute-Core that most of Typo graphy look like to Google's Goolge/Product Sans",
+    "Langs": {},
+    "LangBytes": {},
+    "PreviewUrl": "",
+    "ReadMeIs": true,
+    "Banner": "https://opengraph.githubassets.com/ae15b2cd295d8eb60c5c9720941cf30d4fb80472eb34cc45291914933f3ecf63/MainRoute-Core/CoreSans",
+    "Commits": 2,
+    "Stars": 0,
+    "Forks": 0
+  },
+  {
+    "Repo": "Craft",
+    "Date": "2025-12-13T14:45:33Z",
+    "UpdatedAt": "2026-05-11T17:02:36Z",
+    "Status": "Pub",
+    "Desc": "Craft is a modern digital agency website designed to showcase strategic concepts for businesses.",
+    "Langs": {
+      "HTML": 65.7,
+      "CSS": 33.6,
+      "JavaScript": 0.6,
+      "PHP": 0.1
     },
-    {
-      "Repo": "100-Projects",
-      "Date": "2025-11-16T09:05:54Z",
-      "UpdatedAt": "2026-06-25T10:48:25Z",
-      "Status": "Pub",
-      "Desc": "My 100 Html, Css and Javascript Projects That I Started Building When I Started My Tech Journey and Now All of Them Are Available for You and the New Juniors.",
-      "Langs": {
-        "HTML": 52.5,
-        "CSS": 32.3,
-        "JavaScript": 15.2
-      },
-      "LangBytes": {
-        "HTML": 247076,
-        "CSS": 151869,
-        "JavaScript": 71242
-      },
-      "PreviewUrl": "https://pro-bandey.github.io/100-Projects/",
-      "ReadMeIs": true,
-      "Banner": "https://repository-images.githubusercontent.com/1097480556/33fed1fc-cfa4-4fcd-98a0-40f924be59e2",
-      "Commits": 3,
-      "Stars": 1,
-      "Forks": 0,
-      "Archived": false
+    "LangBytes": {
+      "HTML": 231522,
+      "CSS": 118429,
+      "JavaScript": 2010,
+      "PHP": 371
     },
-    {
-      "Repo": "tiny-helpers",
-      "Date": "2025-11-19T18:06:09Z",
-      "UpdatedAt": "2026-05-10T17:26:44Z",
-      "Status": "Pub",
-      "Desc": "A collection of useful online web development tools",
-      "Langs": {
-        "Nunjucks": 37.4,
-        "JavaScript": 36.2,
-        "CSS": 25.1,
-        "HTML": 0.7,
-        "DIGITAL Command Language": 0.5
-      },
-      "LangBytes": {
-        "Nunjucks": 15827,
-        "JavaScript": 15319,
-        "CSS": 10613,
-        "HTML": 317,
-        "DIGITAL Command Language": 199
-      },
-      "PreviewUrl": "https://tiny-helpers.dev/",
-      "ReadMeIs": true,
-      "Banner": "https://repository-images.githubusercontent.com/1100006679/ab8e43e9-d08f-49cd-8762-17c9178d4b5e",
-      "Commits": 1454,
-      "Stars": 1,
-      "Forks": 0,
-      "Archived": true
+    "PreviewUrl": "https://mainroute-core.github.io/Craft/",
+    "ReadMeIs": true,
+    "Banner": "https://repository-images.githubusercontent.com/1115783062/cf90aabd-f95a-4c0b-a516-fd142447307b",
+    "Commits": 10,
+    "Stars": 0,
+    "Forks": 0
+  },
+  {
+    "Repo": "Dazzle",
+    "Date": "2025-10-20T15:33:53Z",
+    "UpdatedAt": "2026-05-11T17:03:10Z",
+    "Status": "Pub",
+    "Desc": "All help About our all products",
+    "Langs": {
+      "HTML": 52.3,
+      "CSS": 31.2,
+      "JavaScript": 16.6
     },
-    {
-      "Repo": "Mail-Plates",
-      "Date": "2025-11-24T09:22:28Z",
-      "UpdatedAt": "2026-06-18T19:45:30Z",
-      "Status": "Pub",
-      "Desc": "20+ Email Templates for you your business",
-      "Langs": {
-        "HTML": 75.9,
-        "JavaScript": 16.8,
-        "CSS": 7.3
-      },
-      "LangBytes": {
-        "HTML": 431765,
-        "JavaScript": 95857,
-        "CSS": 41306
-      },
-      "PreviewUrl": "https://pro-bandey.github.io/Mail-Plates/",
-      "ReadMeIs": true,
-      "Banner": "https://repository-images.githubusercontent.com/1102976330/31c4297f-397f-4da2-9ad9-4dcdaa0556aa",
-      "Commits": 1,
-      "Stars": 1,
-      "Forks": 0,
-      "Archived": false
+    "LangBytes": {
+      "HTML": 19671,
+      "CSS": 11729,
+      "JavaScript": 6235
     },
-    {
-      "Repo": "HomePage-Legacy",
-      "Date": "2025-11-24T09:27:49Z",
-      "UpdatedAt": "2026-06-18T19:47:26Z",
-      "Status": "Pub",
-      "Desc": "My First and everything of HomePage",
-      "Langs": {
-        "HTML": 98.9,
-        "CSS": 0.6,
-        "JavaScript": 0.5
-      },
-      "LangBytes": {
-        "HTML": 5572288,
-        "CSS": 33130,
-        "JavaScript": 27238
-      },
-      "PreviewUrl": "https://pro-bandey.github.io/HomePage-Legacy/",
-      "ReadMeIs": false,
-      "Banner": "https://repository-images.githubusercontent.com/1102980043/229b19b6-74d9-4061-a98b-f6397dd7d829",
-      "Commits": 1,
-      "Stars": 0,
-      "Forks": 0,
-      "Archived": false
+    "PreviewUrl": "https://mainroute-core.github.io/Dazzle/",
+    "ReadMeIs": true,
+    "Banner": "https://repository-images.githubusercontent.com/1079920427/1a02ef96-636b-4278-ba59-c288791312ba",
+    "Commits": 21,
+    "Stars": 0,
+    "Forks": 0
+  },
+  {
+    "Repo": "e-com",
+    "Date": "2026-05-13T14:37:33Z",
+    "UpdatedAt": "2026-05-20T06:56:58Z",
+    "Status": "Pub",
+    "Desc": "No description provided.",
+    "Langs": {
+      "HTML": 38.7,
+      "CSS": 31,
+      "SCSS": 15.2,
+      "JavaScript": 13.7,
+      "Less": 1,
+      "Pug": 0.4,
+      "PHP": 0
     },
-    {
-      "Repo": "Frequator-WApp",
-      "Date": "2025-11-24T17:55:43Z",
-      "UpdatedAt": "2026-05-20T10:47:00Z",
-      "Status": "Pub",
-      "Desc": "Free Frequency Genrator Tool for Every One",
-      "Langs": {
-        "JavaScript": 74.2,
-        "HTML": 25.8
-      },
-      "LangBytes": {
-        "JavaScript": 47779,
-        "HTML": 16649
-      },
-      "PreviewUrl": "https://pro-bandey.github.io/Frequator-WApp/",
-      "ReadMeIs": true,
-      "Banner": "https://repository-images.githubusercontent.com/1103316065/7d8fc140-4964-4d3f-945c-86e1871963e4",
-      "Commits": 27,
-      "Stars": 1,
-      "Forks": 0,
-      "Archived": false
+    "LangBytes": {
+      "HTML": 9510594,
+      "CSS": 7598440,
+      "SCSS": 3726701,
+      "JavaScript": 3355977,
+      "Less": 235443,
+      "Pug": 106005,
+      "PHP": 11057
     },
-    {
-      "Repo": "Pro-Dev-Profiles",
-      "Date": "2025-12-03T19:29:40Z",
-      "UpdatedAt": "2025-12-07T09:30:29Z",
-      "Status": "Pub",
-      "Desc": "This repository aims to collect portfolios and their repositories from developers around the world.",
-      "Langs": {
-        "JavaScript": 85.4,
-        "CSS": 12.4,
-        "HTML": 2.2
-      },
-      "LangBytes": {
-        "JavaScript": 71313,
-        "CSS": 10368,
-        "HTML": 1841
-      },
-      "PreviewUrl": "https://pro-dev-profiles.vercel.app",
-      "ReadMeIs": true,
-      "Banner": "https://repository-images.githubusercontent.com/1109421769/e8175cfc-7665-426e-9b69-a1adacdcad4c",
-      "Commits": 564,
-      "Stars": 0,
-      "Forks": 0,
-      "Archived": false
+    "PreviewUrl": "https://mainroute-core.github.io/e-com/",
+    "ReadMeIs": true,
+    "Banner": "https://opengraph.githubassets.com/de0ebb64456f227694666e44b9cae8ba4e2b3822f9c12343c7b0e11b839cc018/MainRoute-Core/e-com",
+    "Commits": 5,
+    "Stars": 0,
+    "Forks": 0
+  },
+  {
+    "Repo": "ExtensionsReDev",
+    "Date": "2026-01-31T18:03:35Z",
+    "UpdatedAt": "2026-05-11T17:03:18Z",
+    "Status": "Pub",
+    "Desc": "Do you often access bookmarks or want to speed up navigating the web?",
+    "Langs": {
+      "HTML": 50.4,
+      "CSS": 40.8,
+      "JavaScript": 8.8
     },
-    {
-      "Repo": "MaterialTab",
-      "Date": "2025-12-03T20:24:06Z",
-      "UpdatedAt": "2026-07-12T14:31:35Z",
-      "Status": "Pub",
-      "Desc": "A Material UI HomePage That Make Your Browser Look Like MYNT Impressive",
-      "Langs": {
-        "JavaScript": 67.7,
-        "HTML": 20.3,
-        "CSS": 12
-      },
-      "LangBytes": {
-        "JavaScript": 560925,
-        "HTML": 168072,
-        "CSS": 99591
-      },
-      "PreviewUrl": "https://material-tab.vercel.app",
-      "ReadMeIs": true,
-      "Banner": "https://repository-images.githubusercontent.com/1109448766/c0ca15e3-00da-4273-a6f1-07810e7d2a31",
-      "Commits": 9,
-      "Stars": 1,
-      "Forks": 0,
-      "Archived": false
+    "LangBytes": {
+      "HTML": 70421,
+      "CSS": 56921,
+      "JavaScript": 12316
     },
-    {
-      "Repo": "Ai-Prompts",
-      "Date": "2025-12-07T09:51:32Z",
-      "UpdatedAt": "2023-07-13T19:47:02Z",
-      "Status": "Pub",
-      "Desc": "Discover the ultimate collection of top AI prompts for ChatGPT, Bard, and beyond. Elevate your prompt skills with this open-source project. Unleash the full potential of AI-driven interactions. 🔥",
-      "Langs": {
-        "JavaScript": 98.3,
-        "CSS": 1.7
-      },
-      "LangBytes": {
-        "JavaScript": 122521,
-        "CSS": 2150
-      },
-      "PreviewUrl": "https://litprompts.itsvg.in",
-      "ReadMeIs": true,
-      "Banner": "https://opengraph.githubassets.com/b5e0fb78e092ad56921a9aff7e1dbba6f8d503935077dc2c588dc9ad7439d5f1/Pro-Bandey/Ai-Prompts",
-      "Commits": 55,
-      "Stars": 1,
-      "Forks": 0,
-      "Archived": false
+    "PreviewUrl": "https://mainroute-core.github.io/ExtensionsReDev/",
+    "ReadMeIs": true,
+    "Banner": "https://repository-images.githubusercontent.com/1146809722/f18d28d5-adbc-41ab-ad0d-30ef5098334d",
+    "Commits": 8,
+    "Stars": 0,
+    "Forks": 0
+  },
+  {
+    "Repo": "Extract-CRX",
+    "Date": "2026-06-16T00:20:57Z",
+    "UpdatedAt": "2026-07-15T15:36:59Z",
+    "Status": "Pub",
+    "Desc": "Effortlessly download or convert source code for browser extensions with Extract CRX.",
+    "Langs": {
+      "JavaScript": 42,
+      "HTML": 31.7,
+      "CSS": 26.3
     },
-    {
-      "Repo": "devices.css",
-      "Date": "2025-12-08T16:23:56Z",
-      "UpdatedAt": "2026-04-26T07:21:39Z",
-      "Status": "Pub",
-      "Desc": "Pure CSS phones and tablets",
-      "Langs": {
-        "HTML": 52.6,
-        "SCSS": 26.3,
-        "Pug": 20.6,
-        "JavaScript": 0.5
-      },
-      "LangBytes": {
-        "HTML": 103175,
-        "SCSS": 51614,
-        "Pug": 40348,
-        "JavaScript": 1073
-      },
-      "PreviewUrl": "https://pro-bandey.github.io/devices.css/",
-      "ReadMeIs": true,
-      "Banner": "https://repository-images.githubusercontent.com/1112443828/865593e3-7acf-4b79-9c72-924bae29a39d",
-      "Commits": 40,
-      "Stars": 0,
-      "Forks": 0,
-      "Archived": false
+    "LangBytes": {
+      "JavaScript": 50779,
+      "HTML": 38262,
+      "CSS": 31757
     },
-    {
-      "Repo": "minimalistic-wallpapers",
-      "Date": "2025-12-10T07:44:52Z",
-      "UpdatedAt": "2026-02-27T07:59:59Z",
-      "Status": "Pub",
-      "Desc": "A modern, fully client-side web gallery that dynamically loads, displays, filters, previews, and downloads images directly from a GitHub repository — without any backend.",
-      "Langs": {},
-      "LangBytes": {},
-      "PreviewUrl": "https://mainroute-core.github.io/MWG/",
-      "ReadMeIs": true,
-      "Banner": "https://repository-images.githubusercontent.com/1113599327/6017d8a5-1208-435e-90c2-1d9919d3cf6c",
-      "Commits": 185,
-      "Stars": 1,
-      "Forks": 0,
-      "Archived": false
+    "PreviewUrl": "https://mainroute-core.github.io/Extract-CRX/",
+    "ReadMeIs": true,
+    "Banner": "https://repository-images.githubusercontent.com/1270676325/8b09847b-af28-46bb-a943-80ed9bcdf23f",
+    "Commits": 11,
+    "Stars": 1,
+    "Forks": 0
+  },
+  {
+    "Repo": "Flat",
+    "Date": "2025-12-18T07:58:48Z",
+    "UpdatedAt": "2026-05-11T17:04:04Z",
+    "Status": "Pub",
+    "Desc": "Ready for any web projects",
+    "Langs": {
+      "CSS": 59.8,
+      "HTML": 31.4,
+      "JavaScript": 8.9
     },
-    {
-      "Repo": "Posting-Drafter",
-      "Date": "2025-12-10T10:22:53Z",
-      "UpdatedAt": "2025-12-10T13:31:15Z",
-      "Status": "Pub",
-      "Desc": "No description provided.",
-      "Langs": {
-        "TypeScript": 100
-      },
-      "LangBytes": {
-        "TypeScript": 8118
-      },
-      "PreviewUrl": "https://posting-drafter.vercel.app",
-      "ReadMeIs": false,
-      "Banner": "https://opengraph.githubassets.com/d46e2d64fd15f8a0091cee94acfcfe3aa638f41cad33fe443e1fda555d90495c/Pro-Bandey/Posting-Drafter",
-      "Commits": 8,
-      "Stars": 0,
-      "Forks": 0,
-      "Archived": true
+    "LangBytes": {
+      "CSS": 70199,
+      "HTML": 36843,
+      "JavaScript": 10409
     },
-    {
-      "Repo": "Craft",
-      "Date": "2025-12-13T14:45:33Z",
-      "UpdatedAt": "2026-05-11T17:02:36Z",
-      "Status": "Pub",
-      "Desc": "Craft is a modern digital agency website designed to showcase strategic concepts for businesses.",
-      "Langs": {
-        "HTML": 65.7,
-        "CSS": 33.6,
-        "JavaScript": 0.6,
-        "PHP": 0.1
-      },
-      "LangBytes": {
-        "HTML": 231522,
-        "CSS": 118429,
-        "JavaScript": 2010,
-        "PHP": 371
-      },
-      "PreviewUrl": "https://mainroute-core.github.io/Craft/",
-      "ReadMeIs": true,
-      "Banner": "https://repository-images.githubusercontent.com/1115783062/cf90aabd-f95a-4c0b-a516-fd142447307b",
-      "Commits": 10,
-      "Stars": 0,
-      "Forks": 0,
-      "Archived": false
+    "PreviewUrl": "https://mainroute-core.github.io/Flat/",
+    "ReadMeIs": false,
+    "Banner": "https://repository-images.githubusercontent.com/1118740461/ef3c4b99-08b3-41a6-8de4-1dee8568e8ab",
+    "Commits": 4,
+    "Stars": 0,
+    "Forks": 0
+  },
+  {
+    "Repo": "FontAstic",
+    "Date": "2026-03-12T05:37:00Z",
+    "UpdatedAt": "2026-04-30T07:16:13Z",
+    "Status": "Pub",
+    "Desc": "A curated available fonts",
+    "Langs": {},
+    "LangBytes": {},
+    "PreviewUrl": "",
+    "ReadMeIs": true,
+    "Banner": "https://opengraph.githubassets.com/427d13d075e2ffa278c105bdd5e8d7271335d954f0340a5133f1183e5000c14c/MainRoute-Core/FontAstic",
+    "Commits": 14,
+    "Stars": 0,
+    "Forks": 0
+  },
+  {
+    "Repo": "Fusion",
+    "Date": "2025-12-18T07:59:45Z",
+    "UpdatedAt": "2026-05-11T17:02:22Z",
+    "Status": "Pub",
+    "Desc": "Powering innovation through technology, design, and strategy",
+    "Langs": {
+      "CSS": 44.6,
+      "JavaScript": 35.1,
+      "HTML": 20.3
     },
-    {
-      "Repo": "Flat",
-      "Date": "2025-12-18T07:58:48Z",
-      "UpdatedAt": "2026-05-11T17:04:04Z",
-      "Status": "Pub",
-      "Desc": "Ready for any web projects",
-      "Langs": {
-        "CSS": 59.8,
-        "HTML": 31.4,
-        "JavaScript": 8.9
-      },
-      "LangBytes": {
-        "CSS": 70199,
-        "HTML": 36843,
-        "JavaScript": 10409
-      },
-      "PreviewUrl": "https://mainroute-core.github.io/Flat/",
-      "ReadMeIs": false,
-      "Banner": "https://repository-images.githubusercontent.com/1118740461/ef3c4b99-08b3-41a6-8de4-1dee8568e8ab",
-      "Commits": 4,
-      "Stars": 0,
-      "Forks": 0,
-      "Archived": false
+    "LangBytes": {
+      "CSS": 109291,
+      "JavaScript": 86001,
+      "HTML": 49615
     },
-    {
-      "Repo": "Fusion",
-      "Date": "2025-12-18T07:59:45Z",
-      "UpdatedAt": "2026-05-11T17:02:22Z",
-      "Status": "Pub",
-      "Desc": "Powering innovation through technology, design, and strategy",
-      "Langs": {
-        "CSS": 44.6,
-        "JavaScript": 35.1,
-        "HTML": 20.3
-      },
-      "LangBytes": {
-        "CSS": 109291,
-        "JavaScript": 86001,
-        "HTML": 49615
-      },
-      "PreviewUrl": "https://mainroute-core.github.io/Fusion/",
-      "ReadMeIs": true,
-      "Banner": "https://repository-images.githubusercontent.com/1118740921/6cea3f89-69b2-4af3-bf04-4cf4474fb770",
-      "Commits": 4,
-      "Stars": 0,
-      "Forks": 0,
-      "Archived": false
+    "PreviewUrl": "https://mainroute-core.github.io/Fusion/",
+    "ReadMeIs": true,
+    "Banner": "https://repository-images.githubusercontent.com/1118740921/6cea3f89-69b2-4af3-bf04-4cf4474fb770",
+    "Commits": 4,
+    "Stars": 0,
+    "Forks": 0
+  },
+  {
+    "Repo": "LogoiT",
+    "Date": "2026-01-16T17:50:14Z",
+    "UpdatedAt": "2026-07-15T08:43:26Z",
+    "Status": "Pub",
+    "Desc": "✦ LogoiT ✦ Text to Logo & Favicon Create a professional logo & favicon in seconds, not days.",
+    "Langs": {
+      "JavaScript": 44.6,
+      "Handlebars": 30.3,
+      "HTML": 25
     },
-    {
-      "Repo": "StartUp",
-      "Date": "2025-12-18T08:00:41Z",
-      "UpdatedAt": "2026-05-11T17:03:43Z",
-      "Status": "Pub",
-      "Desc": " A modern, responsive, and highly customizable **Tailwind CSS template** built specifically for **startups, SaaS products, and tech businesses**. Designed to help you launch fast with clean UI, strong conversion focus, and scalable components.",
-      "Langs": {
-        "HTML": 90.8,
-        "CSS": 9.2
-      },
-      "LangBytes": {
-        "HTML": 520056,
-        "CSS": 52699
-      },
-      "PreviewUrl": "https://mainroute-core.github.io/StartUp/",
-      "ReadMeIs": true,
-      "Banner": "https://repository-images.githubusercontent.com/1118741386/2684191d-c107-46b6-8598-ffa14c65b138",
-      "Commits": 4,
-      "Stars": 0,
-      "Forks": 0,
-      "Archived": false
+    "LangBytes": {
+      "JavaScript": 53448,
+      "Handlebars": 36321,
+      "HTML": 29981
     },
-    {
-      "Repo": "WebGator",
-      "Date": "2025-12-18T17:54:21Z",
-      "UpdatedAt": "2026-07-12T14:35:50Z",
-      "Status": "Pub",
-      "Desc": "A simple Chrome extension that provides a floating navigation bar with **Back**, **Forward**, and **Reload** **Home** buttons. ",
-      "Langs": {
-        "JavaScript": 71.2,
-        "HTML": 15.1,
-        "CSS": 13.6
-      },
-      "LangBytes": {
-        "JavaScript": 25347,
-        "HTML": 5385,
-        "CSS": 4847
-      },
-      "PreviewUrl": "",
-      "ReadMeIs": true,
-      "Banner": "https://repository-images.githubusercontent.com/1119078808/92892614-2d88-4d4e-8426-37b3f682b5fc",
-      "Commits": 31,
-      "Stars": 0,
-      "Forks": 0,
-      "Archived": false
+    "PreviewUrl": "https://mainroute-core.github.io/LogoiT/",
+    "ReadMeIs": true,
+    "Banner": "https://repository-images.githubusercontent.com/1135867099/3d27ff8e-5794-42b0-8bdf-7c3cef892187",
+    "Commits": 7,
+    "Stars": 0,
+    "Forks": 0
+  },
+  {
+    "Repo": "Lounge",
+    "Date": "2026-02-16T17:46:41Z",
+    "UpdatedAt": "2026-05-11T17:02:19Z",
+    "Status": "Pub",
+    "Desc": "LOUNGE is a free, responsive HTML template built for cafes, offering a clean one-page design with core features such as a menu, gallery, and subscription form.",
+    "Langs": {
+      "CSS": 67.4,
+      "HTML": 21.3,
+      "JavaScript": 11.3
     },
-    {
-      "Repo": "GitHub-Repository-Finder-By-Username",
-      "Date": "2025-12-19T18:33:19Z",
-      "UpdatedAt": "2026-04-23T13:12:07Z",
-      "Status": "Pub",
-      "Desc": "GitHub Repository Viewer is a simple web application that allows users to search for a GitHub username and view the repositories associated with that user.",
-      "Langs": {
-        "JavaScript": 66.8,
-        "HTML": 24.3,
-        "CSS": 9
-      },
-      "LangBytes": {
-        "JavaScript": 16696,
-        "HTML": 6065,
-        "CSS": 2248
-      },
-      "PreviewUrl": "https://pro-bandey.github.io/GitHub-Repository-Finder-By-Username/",
-      "ReadMeIs": true,
-      "Banner": "https://repository-images.githubusercontent.com/1119725122/1a0e9c9e-0536-41f4-aaec-f04251cb9711",
-      "Commits": 16,
-      "Stars": 0,
-      "Forks": 0,
-      "Archived": false
+    "LangBytes": {
+      "CSS": 148293,
+      "HTML": 46867,
+      "JavaScript": 24914
     },
-    {
-      "Repo": "WiYiF",
-      "Date": "2025-12-31T12:57:15Z",
-      "UpdatedAt": "2026-04-26T07:16:08Z",
-      "Status": "Pub",
-      "Desc": "New Happiness",
-      "Langs": {
-        "HTML": 42.2,
-        "JavaScript": 36.3,
-        "CSS": 21.4
-      },
-      "LangBytes": {
-        "HTML": 20637,
-        "JavaScript": 17754,
-        "CSS": 10478
-      },
-      "PreviewUrl": "https://wiyif.vercel.app",
-      "ReadMeIs": true,
-      "Banner": "https://repository-images.githubusercontent.com/1125830388/a47fb004-df02-40c6-b957-1096ceb104bf",
-      "Commits": 21,
-      "Stars": 0,
-      "Forks": 0,
-      "Archived": false
+    "PreviewUrl": "https://mainroute-core.github.io/Lounge/",
+    "ReadMeIs": true,
+    "Banner": "https://repository-images.githubusercontent.com/1159415318/d6eb9a0a-bb13-444f-b427-a8b6e5e5c110",
+    "Commits": 10,
+    "Stars": 0,
+    "Forks": 0
+  },
+  {
+    "Repo": "MainRoute-Core.github.io",
+    "Date": "2025-12-17T07:09:48Z",
+    "UpdatedAt": "2026-07-06T12:10:51Z",
+    "Status": "Pub",
+    "Desc": "No description provided.",
+    "Langs": {
+      "HTML": 65.1,
+      "CSS": 19.7,
+      "JavaScript": 15.2
     },
-    {
-      "Repo": "multi-style-snake-contribution-grid",
-      "Date": "2026-01-01T18:21:01Z",
-      "UpdatedAt": "2026-07-13T01:46:26Z",
-      "Status": "Pub",
-      "Desc": "Transform your GitHub contribution graph into a dynamic animation with 5 distinct styles, unique shapes, and automated month labels. This project uses a custom composite action to generate multiple snake variations simultaneously.",
-      "Langs": {},
-      "LangBytes": {},
-      "PreviewUrl": "",
-      "ReadMeIs": true,
-      "Banner": "https://opengraph.githubassets.com/e9b113b108927476a84f4aa197ca0abaaab1cb66c1412202a3ec99a3ccda734c/Pro-Bandey/multi-style-snake-contribution-grid",
-      "Commits": 11,
-      "Stars": 1,
-      "Forks": 0,
-      "Archived": false
+    "LangBytes": {
+      "HTML": 231243,
+      "CSS": 70000,
+      "JavaScript": 54062
     },
-    {
-      "Repo": "Previewer",
-      "Date": "2026-01-01T19:07:11Z",
-      "UpdatedAt": "2026-07-12T14:32:51Z",
-      "Status": "Pub",
-      "Desc": "a Web Tool for preview html file from any repo",
-      "Langs": {
-        "JavaScript": 45.4,
-        "HTML": 38.8,
-        "CSS": 15.8
-      },
-      "LangBytes": {
-        "JavaScript": 47241,
-        "HTML": 40318,
-        "CSS": 16468
-      },
-      "PreviewUrl": "https://pro-bandey.github.io/Previewer/",
-      "ReadMeIs": true,
-      "Banner": "https://repository-images.githubusercontent.com/1126370215/c1bbbb16-4171-4355-beab-281e6da0b63f",
-      "Commits": 12,
-      "Stars": 0,
-      "Forks": 0,
-      "Archived": false
+    "PreviewUrl": "https://mainroute-core.github.io/",
+    "ReadMeIs": true,
+    "Banner": "https://repository-images.githubusercontent.com/1118037858/eb947c20-0aeb-4a84-9eb4-9169e758626e",
+    "Commits": 111,
+    "Stars": 0,
+    "Forks": 0
+  },
+  {
+    "Repo": "MakeFav",
+    "Date": "2026-02-16T13:41:07Z",
+    "UpdatedAt": "2026-04-30T06:27:58Z",
+    "Status": "Pub",
+    "Desc": "No description provided.",
+    "Langs": {
+      "HTML": 99.8,
+      "JavaScript": 0.2,
+      "CSS": 0
     },
-    {
-      "Repo": "GGCOkara.github.io",
-      "Date": "2026-01-12T07:47:17Z",
-      "UpdatedAt": "2026-07-16T02:07:17Z",
-      "Status": "Pub",
-      "Desc": "No description provided.",
-      "Langs": {
-        "HTML": 74.2,
-        "CSS": 24.8,
-        "JavaScript": 1
-      },
-      "LangBytes": {
-        "HTML": 117605,
-        "CSS": 39339,
-        "JavaScript": 1612
-      },
-      "PreviewUrl": "https://ggcokara.github.io/",
-      "ReadMeIs": true,
-      "Banner": "https://repository-images.githubusercontent.com/1132607889/b44c6a91-89c4-49b8-8bb3-2579be52fb85",
-      "Commits": 23,
-      "Stars": 0,
-      "Forks": 0,
-      "Archived": false
+    "LangBytes": {
+      "HTML": 9615098,
+      "JavaScript": 15380,
+      "CSS": 4599
     },
-    {
-      "Repo": "GitHub-Directory-Download",
-      "Date": "2026-01-30T18:13:50Z",
-      "UpdatedAt": "2026-01-30T18:15:08Z",
-      "Status": "Pub",
-      "Desc": "Redirect to Git Folder Downloader",
-      "Langs": {
-        "HTML": 100
-      },
-      "LangBytes": {
-        "HTML": 129
-      },
-      "PreviewUrl": "https://gitfolderdownloader.github.io/GitHub-Directory-Download/",
-      "ReadMeIs": true,
-      "Banner": "https://repository-images.githubusercontent.com/1146176960/f8c0cc23-17b8-4f27-a74d-a66ada11de19",
-      "Commits": 3,
-      "Stars": 0,
-      "Forks": 0,
-      "Archived": false
+    "PreviewUrl": "https://mainroute-core.github.io/MakeFav/",
+    "ReadMeIs": false,
+    "Banner": "https://repository-images.githubusercontent.com/1159236531/b05f5213-b26f-48f8-9c60-47a1bbadd437",
+    "Commits": 8,
+    "Stars": 0,
+    "Forks": 0
+  },
+  {
+    "Repo": "minimalistic-wallpapers",
+    "Date": "2025-12-10T07:44:52Z",
+    "UpdatedAt": "2026-02-27T07:59:59Z",
+    "Status": "Pub",
+    "Desc": "A modern, fully client-side web gallery that dynamically loads, displays, filters, previews, and downloads images directly from a GitHub repository — without any backend.",
+    "Langs": {},
+    "LangBytes": {},
+    "PreviewUrl": "https://mainroute-core.github.io/MWG/",
+    "ReadMeIs": true,
+    "Banner": "https://repository-images.githubusercontent.com/1113599327/6017d8a5-1208-435e-90c2-1d9919d3cf6c",
+    "Commits": 185,
+    "Stars": 1,
+    "Forks": 0
+  },
+  {
+    "Repo": "MWG",
+    "Date": "2025-12-23T13:22:53Z",
+    "UpdatedAt": "2026-06-02T07:25:53Z",
+    "Status": "Pub",
+    "Desc": "A modern, fully client-side web gallery that dynamically loads, displays, filters, previews, and downloads images directly from a GitHub repository — without any backend.",
+    "Langs": {
+      "HTML": 58.8,
+      "JavaScript": 26.8,
+      "CSS": 14.4
     },
-    {
-      "Repo": "download-directory",
-      "Date": "2026-01-30T18:25:00Z",
-      "UpdatedAt": "2026-01-30T18:25:03Z",
-      "Status": "Pub",
-      "Desc": "Redirect to Git Folder Downloader",
-      "Langs": {
-        "HTML": 100
-      },
-      "LangBytes": {
-        "HTML": 129
-      },
-      "PreviewUrl": "",
-      "ReadMeIs": true,
-      "Banner": "https://opengraph.githubassets.com/59ddf9863b80e6eb0e3082435ac22aa17006c1031aeea8ef3c4d584f7d9377e7/GitFolderDownloader/download-directory",
-      "Commits": 1,
-      "Stars": 0,
-      "Forks": 0,
-      "Archived": false
+    "LangBytes": {
+      "HTML": 52617,
+      "JavaScript": 23947,
+      "CSS": 12908
     },
-    {
-      "Repo": "DocEdit",
-      "Date": "2026-01-31T18:20:53Z",
-      "UpdatedAt": "2026-07-12T14:30:32Z",
-      "Status": "Pub",
-      "Desc": "DocEdit, is a free and open-source text/document editor extension for your browser.",
-      "Langs": {
-        "JavaScript": 92,
-        "HTML": 8
-      },
-      "LangBytes": {
-        "JavaScript": 60146,
-        "HTML": 5195
-      },
-      "PreviewUrl": "https://addons.mozilla.org/en-US/firefox/addon/docedit/",
-      "ReadMeIs": true,
-      "Banner": "https://repository-images.githubusercontent.com/1146818375/77310dc3-586d-44dd-a682-41e4e1a42135",
-      "Commits": 16,
-      "Stars": 0,
-      "Forks": 0,
-      "Archived": false
+    "PreviewUrl": "https://mainroute-core.github.io/MWG/",
+    "ReadMeIs": true,
+    "Banner": "https://repository-images.githubusercontent.com/1121737596/4ae915d9-59ec-41a0-9d2c-7918f3d4bba8",
+    "Commits": 35,
+    "Stars": 2,
+    "Forks": 0
+  },
+  {
+    "Repo": "Play-Onyx",
+    "Date": "2026-01-17T09:14:25Z",
+    "UpdatedAt": "2026-07-15T16:06:39Z",
+    "Status": "Pub",
+    "Desc": "Play Onyx is a high-performance, browser-based media player designed for seamless audio and video playback.",
+    "Langs": {
+      "HTML": 68.4,
+      "JavaScript": 19.4,
+      "CSS": 12.2
     },
-    {
-      "Repo": "Periodix",
-      "Date": "2026-02-03T11:43:40Z",
-      "UpdatedAt": "2026-04-30T06:28:40Z",
-      "Status": "Pub",
-      "Desc": " An interactive periodic table of elements. Built using Vanilla JavaScript, HTML, and CSS. Displays detailed information about chemical elements",
-      "Langs": {
-        "JavaScript": 73.7,
-        "CSS": 20.3,
-        "HTML": 5.9
-      },
-      "LangBytes": {
-        "JavaScript": 138043,
-        "CSS": 38086,
-        "HTML": 11051
-      },
-      "PreviewUrl": "https://pro-bandey.github.io/Periodix/",
-      "ReadMeIs": true,
-      "Banner": "https://repository-images.githubusercontent.com/1148806094/27c908e9-1ad2-49b6-8d30-28384770397f",
-      "Commits": 7,
-      "Stars": 0,
-      "Forks": 0,
-      "Archived": false
+    "LangBytes": {
+      "HTML": 119142,
+      "JavaScript": 33692,
+      "CSS": 21277
     },
-    {
-      "Repo": "WebsiteDownloader",
-      "Date": "2026-02-07T18:35:43Z",
-      "UpdatedAt": "2026-04-23T13:14:01Z",
-      "Status": "Pub",
-      "Desc": "Best HTTrack alternative and website copier tool. Download full website with HTML, CSS, JS support.",
-      "Langs": {
-        "HTML": 64.6,
-        "CSS": 27,
-        "JavaScript": 8.4
-      },
-      "LangBytes": {
-        "HTML": 250501,
-        "CSS": 104541,
-        "JavaScript": 32463
-      },
-      "PreviewUrl": "https://pro-bandey.github.io/WebsiteDownloader/",
-      "ReadMeIs": false,
-      "Banner": "https://repository-images.githubusercontent.com/1152348334/4af69a08-c511-4ec9-a2c1-f52a54c65db7",
-      "Commits": 18,
-      "Stars": 1,
-      "Forks": 0,
-      "Archived": false
+    "PreviewUrl": "https://mainroute-core.github.io/Play-Onyx/",
+    "ReadMeIs": true,
+    "Banner": "https://repository-images.githubusercontent.com/1136210125/cebedd53-a6ae-4232-b1fe-9c33e8f6518f",
+    "Commits": 24,
+    "Stars": 0,
+    "Forks": 0
+  },
+  {
+    "Repo": "Route-Tools",
+    "Date": "2026-07-02T18:55:40Z",
+    "UpdatedAt": "2026-07-02T18:55:47Z",
+    "Status": "Pub",
+    "Desc": "Route Tools: Standalone web tools for developers. Client-side Formatters, CSS, Security, and Generators. No-install, privacy-focused utilities.",
+    "Langs": {
+      "HTML": 95.9,
+      "JavaScript": 3.3,
+      "CSS": 0.8
     },
-    {
-      "Repo": "WebGation",
-      "Date": "2026-02-09T22:24:27Z",
-      "UpdatedAt": "2026-07-12T14:35:34Z",
-      "Status": "Pub",
-      "Desc": "WebGation is a lightweight, high-performance Chrome Extension designed to enhance your browsing speed.",
-      "Langs": {
-        "JavaScript": 89.6,
-        "CSS": 5.5,
-        "HTML": 4.9
-      },
-      "LangBytes": {
-        "JavaScript": 67668,
-        "CSS": 4148,
-        "HTML": 3699
-      },
-      "PreviewUrl": "",
-      "ReadMeIs": true,
-      "Banner": "https://repository-images.githubusercontent.com/1153986557/0284cc47-55cf-4378-9f2c-eb4163ee0b8d",
-      "Commits": 22,
-      "Stars": 0,
-      "Forks": 0,
-      "Archived": false
+    "LangBytes": {
+      "HTML": 1743442,
+      "JavaScript": 60915,
+      "CSS": 14107
     },
-    {
-      "Repo": "Quantix",
-      "Date": "2026-02-14T10:58:50Z",
-      "UpdatedAt": "2026-07-12T14:33:11Z",
-      "Status": "Pub",
-      "Desc": "Quantix is a lightweight, responsive utility calculator and comprehensive unit converter designed to work natively as a web application, a Google Chrome Extension, or a Mozilla Firefox Add-on.",
-      "Langs": {
-        "JavaScript": 47.3,
-        "HTML": 36.8,
-        "CSS": 16
-      },
-      "LangBytes": {
-        "JavaScript": 113830,
-        "HTML": 88516,
-        "CSS": 38445
-      },
-      "PreviewUrl": "https://pro-bandey.github.io/Quantix/",
-      "ReadMeIs": true,
-      "Banner": "https://repository-images.githubusercontent.com/1157822575/fd37bfe3-834b-4d43-9da4-7c2ddde45c22",
-      "Commits": 16,
-      "Stars": 0,
-      "Forks": 0,
-      "Archived": false
+    "PreviewUrl": "https://mainroute-core.github.io/Route-Tools/",
+    "ReadMeIs": false,
+    "Banner": "https://opengraph.githubassets.com/2a13d8531d4d15f56a68fa520bed903eab3437cb103a5fe4103b4b4522ea3edc/MainRoute-Core/Route-Tools",
+    "Commits": 1,
+    "Stars": 0,
+    "Forks": 0
+  },
+  {
+    "Repo": "S-V-Go",
+    "Date": "2026-01-21T15:20:10Z",
+    "UpdatedAt": "2026-07-15T15:25:28Z",
+    "Status": "Pub",
+    "Desc": "A Collection interactive and interested svg icons by our community.",
+    "Langs": {
+      "HTML": 42.5,
+      "JavaScript": 39.6,
+      "CSS": 18
     },
-    {
-      "Repo": "Sticky-Notes-Wall",
-      "Date": "2026-02-15T14:00:31Z",
-      "UpdatedAt": "2026-02-15T14:20:16Z",
-      "Status": "Pub",
-      "Desc": "A dynamic, interactive digital \"Wall of Inspiration\" built with Vanilla JavaScript.",
-      "Langs": {
-        "HTML": 100
-      },
-      "LangBytes": {
-        "HTML": 18907
-      },
-      "PreviewUrl": "https://pro-bandey.github.io/Sticky-Notes-Wall/",
-      "ReadMeIs": false,
-      "Banner": "https://repository-images.githubusercontent.com/1158515023/f94bed29-8949-4ad7-94f9-f9b7ba743846",
-      "Commits": 4,
-      "Stars": 0,
-      "Forks": 0,
-      "Archived": false
+    "LangBytes": {
+      "HTML": 20851,
+      "JavaScript": 19427,
+      "CSS": 8813
     },
-    {
-      "Repo": "Chrome-App-Launcher-Lite",
-      "Date": "2026-02-22T11:22:31Z",
-      "UpdatedAt": "2026-07-14T13:12:57Z",
-      "Status": "Pub",
-      "Desc": "A minimalist, highly performant browser extension designed to catalog, organize, and launch your daily web shortcuts through a clean, sharp-cornered interface.",
-      "Langs": {
-        "JavaScript": 62.1,
-        "CSS": 23.2,
-        "HTML": 14.7
-      },
-      "LangBytes": {
-        "JavaScript": 105684,
-        "CSS": 39422,
-        "HTML": 24988
-      },
-      "PreviewUrl": "https://pro-bandey.github.io/Chrome-App-Launcher-Lite/",
-      "ReadMeIs": true,
-      "Banner": "https://repository-images.githubusercontent.com/1163926295/00b593d4-3006-46ff-af1d-15bdbafd2678",
-      "Commits": 35,
-      "Stars": 0,
-      "Forks": 0,
-      "Archived": false
+    "PreviewUrl": "https://mainroute-core.github.io/S-V-Go/",
+    "ReadMeIs": true,
+    "Banner": "https://repository-images.githubusercontent.com/1139140583/1a13ac6f-afc1-45f4-9411-1a00b4a8ad34",
+    "Commits": 19,
+    "Stars": 0,
+    "Forks": 0
+  },
+  {
+    "Repo": "StartUp",
+    "Date": "2025-12-18T08:00:41Z",
+    "UpdatedAt": "2026-05-11T17:03:43Z",
+    "Status": "Pub",
+    "Desc": " A modern, responsive, and highly customizable **Tailwind CSS template** built specifically for **startups, SaaS products, and tech businesses**. Designed to help you launch fast with clean UI, strong conversion focus, and scalable components.",
+    "Langs": {
+      "HTML": 90.8,
+      "CSS": 9.2
     },
-    {
-      "Repo": "DashX",
-      "Date": "2026-03-10T20:21:49Z",
-      "UpdatedAt": "2026-07-12T14:30:08Z",
-      "Status": "Pub",
-      "Desc": "DashX is Minimalist & lightweight startpage mirror of Bonjourr",
-      "Langs": {
-        "JavaScript": 71.4,
-        "HTML": 27,
-        "CSS": 1.5
-      },
-      "LangBytes": {
-        "JavaScript": 474353,
-        "HTML": 179384,
-        "CSS": 10179
-      },
-      "PreviewUrl": "https://pro-bandey.github.io/DashX/",
-      "ReadMeIs": true,
-      "Banner": "https://repository-images.githubusercontent.com/1178226465/4d91e64e-9c3c-4305-aa7a-dcec5047f65f",
-      "Commits": 4,
-      "Stars": 0,
-      "Forks": 0,
-      "Archived": false
+    "LangBytes": {
+      "HTML": 520056,
+      "CSS": 52699
     },
-    {
-      "Repo": "ThemeSo",
-      "Date": "2026-03-29T11:52:46Z",
-      "UpdatedAt": "2026-07-11T13:48:19Z",
-      "Status": "Pub",
-      "Desc": "A Collection of Chrome, FireFox  & VS Code Themes",
-      "Langs": {},
-      "LangBytes": {},
-      "PreviewUrl": "",
-      "ReadMeIs": true,
-      "Banner": "https://repository-images.githubusercontent.com/1195221881/7ee22f0c-675b-4fb4-99a8-0f7434468046",
-      "Commits": 13,
-      "Stars": 0,
-      "Forks": 0,
-      "Archived": false
+    "PreviewUrl": "https://mainroute-core.github.io/StartUp/",
+    "ReadMeIs": true,
+    "Banner": "https://repository-images.githubusercontent.com/1118741386/2684191d-c107-46b6-8598-ffa14c65b138",
+    "Commits": 4,
+    "Stars": 0,
+    "Forks": 0
+  },
+  {
+    "Repo": "StylishSelect",
+    "Date": "2026-07-15T07:01:25Z",
+    "UpdatedAt": "2026-07-16T09:34:31Z",
+    "Status": "Pub",
+    "Desc": "A modular, highly accessible, and performance-oriented replacement for native HTML single select elements written in vanilla ES6.",
+    "Langs": {
+      "JavaScript": 51.7,
+      "CSS": 48.3
     },
-    {
-      "Repo": "QR-SnG",
-      "Date": "2026-04-05T16:09:26Z",
-      "UpdatedAt": "2026-06-29T14:59:37Z",
-      "Status": "Pub",
-      "Desc": "Browser extension allows users to easily generate and scan QR codes directly from their browser.",
-      "Langs": {
-        "JavaScript": 59.4,
-        "HTML": 29.3,
-        "CSS": 11.3
-      },
-      "LangBytes": {
-        "JavaScript": 185624,
-        "HTML": 91501,
-        "CSS": 35363
-      },
-      "PreviewUrl": "https://pro-bandey.github.io/QR-SnG/",
-      "ReadMeIs": true,
-      "Banner": "https://repository-images.githubusercontent.com/1202116532/6af1510b-b968-40ce-83b2-ad0590cf974a",
-      "Commits": 22,
-      "Stars": 0,
-      "Forks": 0,
-      "Archived": false
+    "LangBytes": {
+      "JavaScript": 40496,
+      "CSS": 37851
     },
-    {
-      "Repo": "MegaMind-Solution",
-      "Date": "2026-04-08T16:15:52Z",
-      "UpdatedAt": "2026-07-15T07:57:07Z",
-      "Status": "Pub",
-      "Desc": "Config files for my GitHub profile.",
-      "Langs": {},
-      "LangBytes": {},
-      "PreviewUrl": "",
-      "ReadMeIs": true,
-      "Banner": "https://repository-images.githubusercontent.com/1205090585/5fd66c86-0f91-49f9-ba6e-139a542a30fd",
-      "Commits": 45,
-      "Stars": 0,
-      "Forks": 0,
-      "Archived": false
+    "PreviewUrl": "https://mainroute-core.github.io/StylishSelect/",
+    "ReadMeIs": true,
+    "Banner": "https://repository-images.githubusercontent.com/1301307536/bc46d392-01b2-4650-b8fb-b845e86cdf01",
+    "Commits": 3,
+    "Stars": 0,
+    "Forks": 0
+  },
+  {
+    "Repo": "TreeZip",
+    "Date": "2026-02-23T11:02:42Z",
+    "UpdatedAt": "2026-05-08T08:47:20Z",
+    "Status": "Pub",
+    "Desc": "TreeZip is a powerful web-based tool that transforms ASCII tree structures into actual downloadable ZIP files with the complete directory hierarchy. Perfect for developers who want to quickly scaffold project structures, share folder layouts, or convert documentation into actual file systems.",
+    "Langs": {
+      "HTML": 100
     },
-    {
-      "Repo": "AddOns-Manager",
-      "Date": "2026-04-13T08:23:37Z",
-      "UpdatedAt": "2026-07-12T14:28:54Z",
-      "Status": "Pub",
-      "Desc": "Manage and track extensions By AddOns Manager",
-      "Langs": {
-        "JavaScript": 49.7,
-        "CSS": 31.1,
-        "HTML": 19.2
-      },
-      "LangBytes": {
-        "JavaScript": 44011,
-        "CSS": 27551,
-        "HTML": 16990
-      },
-      "PreviewUrl": "",
-      "ReadMeIs": true,
-      "Banner": "https://repository-images.githubusercontent.com/1209240785/4b14199c-7399-4e3e-bd58-1aaaf1890559",
-      "Commits": 13,
-      "Stars": 0,
-      "Forks": 0,
-      "Archived": false
+    "LangBytes": {
+      "HTML": 71645
     },
-    {
-      "Repo": "Shield-Authenticator",
-      "Date": "2026-04-17T19:26:05Z",
-      "UpdatedAt": "2026-06-11T19:19:16Z",
-      "Status": "Pub",
-      "Desc": "Shield Authenticator generates two-factor authentication codes in your browser.",
-      "Langs": {
-        "HTML": 100
-      },
-      "LangBytes": {
-        "HTML": 11132
-      },
-      "PreviewUrl": "",
-      "ReadMeIs": true,
-      "Banner": "https://repository-images.githubusercontent.com/1213803073/51bf2d28-7cb6-4408-bfd2-61c174e1fecf",
-      "Commits": 9,
-      "Stars": 0,
-      "Forks": 0,
-      "Archived": false
+    "PreviewUrl": "https://mainroute-core.github.io/TreeZip/",
+    "ReadMeIs": true,
+    "Banner": "https://repository-images.githubusercontent.com/1164674591/1b84988d-1a4f-4e43-8522-e815d85e4807",
+    "Commits": 11,
+    "Stars": 0,
+    "Forks": 0
+  },
+  {
+    "Repo": "WebSite-Cloner",
+    "Date": "2026-07-01T16:40:21Z",
+    "UpdatedAt": "2026-07-01T16:40:25Z",
+    "Status": "Pub",
+    "Desc": "A lightweight, cross-platform CLI utility written in Python to clone websites locally [1]. The script features dynamic terminal color coding, recursive crawling of internal links, offline file path rewriting, and automated asset acquisition (including external stylesheets, scripts, fonts, and images) [1].",
+    "Langs": {
+      "Python": 78.5,
+      "Shell": 11.5,
+      "Batchfile": 6.5,
+      "PowerShell": 3.5
     },
-    {
-      "Repo": "UltraPip",
-      "Date": "2026-04-20T18:00:11Z",
-      "UpdatedAt": "2026-07-14T13:03:36Z",
-      "Status": "Pub",
-      "Desc": "The Ultimate Picture-in-Picture Extension...",
-      "Langs": {
-        "JavaScript": 81.6,
-        "HTML": 18.4
-      },
-      "LangBytes": {
-        "JavaScript": 24227,
-        "HTML": 5446
-      },
-      "PreviewUrl": "",
-      "ReadMeIs": true,
-      "Banner": "https://repository-images.githubusercontent.com/1216243900/67de1639-43e0-4342-8e5e-4a6a6db38859",
-      "Commits": 7,
-      "Stars": 0,
-      "Forks": 0,
-      "Archived": false
+    "LangBytes": {
+      "Python": 21927,
+      "Shell": 3216,
+      "Batchfile": 1816,
+      "PowerShell": 991
     },
-    {
-      "Repo": "Catch-Screen",
-      "Date": "2026-04-30T06:45:13Z",
-      "UpdatedAt": "2026-07-12T14:29:17Z",
-      "Status": "Pub",
-      "Desc": "Impressive screenshot tool lets users can take full page screen capture selected page screen capture and edit screenshot.",
-      "Langs": {
-        "JavaScript": 72.4,
-        "CSS": 16,
-        "HTML": 11.5
-      },
-      "LangBytes": {
-        "JavaScript": 55208,
-        "CSS": 12222,
-        "HTML": 8774
-      },
-      "PreviewUrl": "",
-      "ReadMeIs": true,
-      "Banner": "https://repository-images.githubusercontent.com/1225310444/a9a151df-e21b-454a-953a-a2ebf93f8a55",
-      "Commits": 5,
-      "Stars": 0,
-      "Forks": 0,
-      "Archived": false
+    "PreviewUrl": "",
+    "ReadMeIs": true,
+    "Banner": "https://repository-images.githubusercontent.com/1286310614/e49091bb-3a01-4fd4-af0d-9abfdd4b6bb0",
+    "Commits": 1,
+    "Stars": 0,
+    "Forks": 0
+  },
+  {
+    "Repo": "Zeniod",
+    "Date": "2026-04-22T13:31:10Z",
+    "UpdatedAt": "2026-05-11T17:03:47Z",
+    "Status": "Pub",
+    "Desc": "Design Driven Development of your Products. A landingpage  template for you",
+    "Langs": {
+      "SCSS": 47.1,
+      "HTML": 41.8,
+      "JavaScript": 11.2
     },
-    {
-      "Repo": "Cool-Refresh",
-      "Date": "2026-05-02T15:35:53Z",
-      "UpdatedAt": "2026-07-12T14:29:58Z",
-      "Status": "Pub",
-      "Desc": "Customizable pull-to-refresh instead of the built-in one.",
-      "Langs": {
-        "JavaScript": 59.2,
-        "CSS": 31.2,
-        "HTML": 9.6
-      },
-      "LangBytes": {
-        "JavaScript": 30326,
-        "CSS": 15995,
-        "HTML": 4922
-      },
-      "PreviewUrl": "https://addons.mozilla.org/en-US/firefox/addon/cool-refresh/",
-      "ReadMeIs": true,
-      "Banner": "https://repository-images.githubusercontent.com/1227370803/1093f7a5-89af-4c36-a05b-e0e3e6fe8260",
-      "Commits": 10,
-      "Stars": 0,
-      "Forks": 0,
-      "Archived": false
+    "LangBytes": {
+      "SCSS": 13945,
+      "HTML": 12383,
+      "JavaScript": 3307
     },
-    {
-      "Repo": "Stylish-QR-Code",
-      "Date": "2026-05-03T18:58:06Z",
-      "UpdatedAt": "2026-07-02T20:09:19Z",
-      "Status": "Pub",
-      "Desc": "Generate branded QR code online, you can add image and color to your QR code. Use the Stylish QR Code to generate custimize stylish QR codes.",
-      "Langs": {
-        "HTML": 58.7,
-        "JavaScript": 33.2,
-        "CSS": 8
-      },
-      "LangBytes": {
-        "HTML": 65865,
-        "JavaScript": 37259,
-        "CSS": 9025
-      },
-      "PreviewUrl": "https://pro-bandey.github.io/Stylish-QR-Code/",
-      "ReadMeIs": true,
-      "Banner": "https://repository-images.githubusercontent.com/1228225707/ddbd93b4-9b7f-4512-9a1f-e539cd6d8ee4",
-      "Commits": 28,
-      "Stars": 0,
-      "Forks": 0,
-      "Archived": false
-    },
-    {
-      "Repo": "Clogs",
-      "Date": "2026-05-09T00:49:34Z",
-      "UpdatedAt": "2026-06-23T16:40:44Z",
-      "Status": "Pub",
-      "Desc": "MainRoute Core Blog Use by https://MainRoute-Core.github.io/Clog/",
-      "Langs": {
-        "JavaScript": 60,
-        "HTML": 23.8,
-        "CSS": 16.2
-      },
-      "LangBytes": {
-        "JavaScript": 111456,
-        "HTML": 44218,
-        "CSS": 30155
-      },
-      "PreviewUrl": "https://mainroute-core.github.io/Clogs/Reader/",
-      "ReadMeIs": false,
-      "Banner": "https://repository-images.githubusercontent.com/1233436759/2639fb06-fd01-44f5-a0cb-92a346d32bbd",
-      "Commits": 105,
-      "Stars": 0,
-      "Forks": 0,
-      "Archived": false
-    },
-    {
-      "Repo": "Translate-In-Sidepanel",
-      "Date": "2026-05-11T18:22:13Z",
-      "UpdatedAt": "2026-06-29T15:05:14Z",
-      "Status": "Pub",
-      "Desc": "Translate In Sidepanel is a powerful, modern Chrome extension that brings seamless multi-language translation directly to your browser's side panel. With a beautifully crafted UI, dark mode support, and searchable language dropdowns, translating text while browsing has never been easier.",
-      "Langs": {
-        "JavaScript": 78.3,
-        "HTML": 21.7
-      },
-      "LangBytes": {
-        "JavaScript": 103556,
-        "HTML": 28715
-      },
-      "PreviewUrl": "",
-      "ReadMeIs": true,
-      "Banner": "https://repository-images.githubusercontent.com/1235865935/e03c06db-09a0-49ca-bfd3-f4396ab3f457",
-      "Commits": 9,
-      "Stars": 0,
-      "Forks": 0,
-      "Archived": false
-    },
-    {
-      "Repo": "Adaptive-Tab-Theme",
-      "Date": "2026-06-02T06:34:48Z",
-      "UpdatedAt": "2026-07-12T14:27:54Z",
-      "Status": "Pub",
-      "Desc": "Changes the color of Firefox theme to match the website’s appearance.",
-      "Langs": {
-        "JavaScript": 61.2,
-        "HTML": 27.1,
-        "CSS": 11.7
-      },
-      "LangBytes": {
-        "JavaScript": 72243,
-        "HTML": 31999,
-        "CSS": 13748
-      },
-      "PreviewUrl": "https://addons.mozilla.org/firefox/addon/adaptive-tab-theme/",
-      "ReadMeIs": true,
-      "Banner": "https://repository-images.githubusercontent.com/1256859461/280f46ed-c60b-45a2-86f5-91075c45bdbd",
-      "Commits": 8,
-      "Stars": 0,
-      "Forks": 0,
-      "Archived": false
-    },
-    {
-      "Repo": "TxtEdit",
-      "Date": "2026-06-04T03:03:37Z",
-      "UpdatedAt": "2026-07-12T14:34:02Z",
-      "Status": "Pub",
-      "Desc": "A free, highly customizable text and code editor that built for your browser.",
-      "Langs": {
-        "JavaScript": 72.7,
-        "HTML": 17.5,
-        "CSS": 9.8
-      },
-      "LangBytes": {
-        "JavaScript": 194015,
-        "HTML": 46638,
-        "CSS": 26098
-      },
-      "PreviewUrl": "https://addons.mozilla.org/en-US/firefox/addon/txtedit/",
-      "ReadMeIs": true,
-      "Banner": "https://repository-images.githubusercontent.com/1258906728/2356b5d6-10ad-4f4d-aa60-ffbaebc2ac46",
-      "Commits": 4,
-      "Stars": 0,
-      "Forks": 0,
-      "Archived": false
-    },
-    {
-      "Repo": "Onyx-IpTv",
-      "Date": "2026-06-04T21:07:46Z",
-      "UpdatedAt": "2026-07-13T04:31:11Z",
-      "Status": "Pub",
-      "Desc": "No description provided.",
-      "Langs": {
-        "JavaScript": 62.5,
-        "CSS": 18.9,
-        "HTML": 18.6
-      },
-      "LangBytes": {
-        "JavaScript": 71658,
-        "CSS": 21680,
-        "HTML": 21369
-      },
-      "PreviewUrl": "https://pro-bandey.github.io/Onyx-IpTv/",
-      "ReadMeIs": true,
-      "Banner": "https://repository-images.githubusercontent.com/1259776889/7b08b9e9-8783-4bbd-8a5c-cd9d35bd0fdb",
-      "Commits": 36,
-      "Stars": 0,
-      "Forks": 0,
-      "Archived": false
-    },
-    {
-      "Repo": "MDEdit",
-      "Date": "2026-06-06T05:04:00Z",
-      "UpdatedAt": "2026-07-12T14:31:44Z",
-      "Status": "Pub",
-      "Desc": "A lightweight Markdown editor designed for creating, editing, and previewing Markdown documents with ease.",
-      "Langs": {
-        "JavaScript": 61.8,
-        "HTML": 23,
-        "CSS": 15.2
-      },
-      "LangBytes": {
-        "JavaScript": 58049,
-        "HTML": 21596,
-        "CSS": 14224
-      },
-      "PreviewUrl": "https://addons.mozilla.org/en-US/firefox/addon/mdedit/",
-      "ReadMeIs": true,
-      "Banner": "https://repository-images.githubusercontent.com/1260979956/27d2170d-94eb-4da9-a47d-41011fa4560f",
-      "Commits": 4,
-      "Stars": 0,
-      "Forks": 0,
-      "Archived": false
-    },
-    {
-      "Repo": "Color-PickUp",
-      "Date": "2026-06-11T22:44:58Z",
-      "UpdatedAt": "2026-07-12T14:29:34Z",
-      "Status": "Pub",
-      "Desc": "Color PickUp is a minimalist color picker extension and web tool designed to help you inspect, convert, and organize color palettes from a clean, responsive popup.",
-      "Langs": {
-        "JavaScript": 83.5,
-        "HTML": 12.3,
-        "CSS": 4.1
-      },
-      "LangBytes": {
-        "JavaScript": 415378,
-        "HTML": 61390,
-        "CSS": 20616
-      },
-      "PreviewUrl": "https://pro-bandey.github.io/Color-PickUp/",
-      "ReadMeIs": true,
-      "Banner": "https://repository-images.githubusercontent.com/1266731496/a4688b6f-917d-4116-97b6-c261ee9497a8",
-      "Commits": 12,
-      "Stars": 0,
-      "Forks": 0,
-      "Archived": false
-    },
-    {
-      "Repo": "Translator-SideBar_Using-AI",
-      "Date": "2026-06-19T20:41:51Z",
-      "UpdatedAt": "2026-06-29T15:00:09Z",
-      "Status": "Pub",
-      "Desc": "Translate text within the sidebar panel via two different AI engines (fully offline).",
-      "Langs": {
-        "JavaScript": 73.9,
-        "HTML": 26.1
-      },
-      "LangBytes": {
-        "JavaScript": 34729,
-        "HTML": 12259
-      },
-      "PreviewUrl": "",
-      "ReadMeIs": true,
-      "Banner": "https://repository-images.githubusercontent.com/1274731611/6f1297be-cd27-46ea-9442-82e79cf24374",
-      "Commits": 4,
-      "Stars": 0,
-      "Forks": 0,
-      "Archived": false
-    },
-    {
-      "Repo": "Sidebar-Page",
-      "Date": "2026-06-22T14:57:09Z",
-      "UpdatedAt": "2026-07-12T14:33:25Z",
-      "Status": "Pub",
-      "Desc": "See your desired website in the browser side panel.",
-      "Langs": {
-        "JavaScript": 76.5,
-        "HTML": 23.3,
-        "CSS": 0.2
-      },
-      "LangBytes": {
-        "JavaScript": 70714,
-        "HTML": 21502,
-        "CSS": 174
-      },
-      "PreviewUrl": "",
-      "ReadMeIs": true,
-      "Banner": "https://repository-images.githubusercontent.com/1277073547/99c575b1-6ab4-489e-9013-53bd26cdf9cf",
-      "Commits": 4,
-      "Stars": 0,
-      "Forks": 0,
-      "Archived": false
-    },
-    {
-      "Repo": "LiveNet-Speed-Widget",
-      "Date": "2026-06-29T13:06:38Z",
-      "UpdatedAt": "2026-07-01T14:47:25Z",
-      "Status": "Pub",
-      "Desc": "Premium real-time internet speed, ping, and page footprint widget with custom themes and hotkeys.",
-      "Langs": {
-        "JavaScript": 78.3,
-        "HTML": 10.9,
-        "CSS": 10.9
-      },
-      "LangBytes": {
-        "JavaScript": 48157,
-        "HTML": 6701,
-        "CSS": 6683
-      },
-      "PreviewUrl": "",
-      "ReadMeIs": true,
-      "Banner": "https://opengraph.githubassets.com/7f7fef0284cb817b6fbdac0a1ad21cf2d49808404c51732d20646f4ea5231bb2/Pro-Bandey/LiveNet-Speed-Widget",
-      "Commits": 3,
-      "Stars": 0,
-      "Forks": 0,
-      "Archived": true
-    },
-    {
-      "Repo": "Git-Repo-Cloner",
-      "Date": "2026-07-01T15:33:19Z",
-      "UpdatedAt": "2026-07-10T14:32:28Z",
-      "Status": "Pub",
-      "Desc": "A lightweight, cross-platform CLI utility written in Python to clone Git repositories. The script features dynamic terminal color coding, input path resolution, and destination directory management.",
-      "Langs": {
-        "Python": 36.9,
-        "Shell": 28.6,
-        "Batchfile": 23.2,
-        "PowerShell": 11.2
-      },
-      "LangBytes": {
-        "Python": 6959,
-        "Shell": 5400,
-        "Batchfile": 4382,
-        "PowerShell": 2112
-      },
-      "PreviewUrl": "",
-      "ReadMeIs": true,
-      "Banner": "https://repository-images.githubusercontent.com/1286251720/2d411f7f-97c3-4398-924c-dbc32a7f8d3f",
-      "Commits": 4,
-      "Stars": 0,
-      "Forks": 0,
-      "Archived": false
-    },
-    {
-      "Repo": "WebSite-Cloner",
-      "Date": "2026-07-01T16:40:21Z",
-      "UpdatedAt": "2026-07-01T16:40:25Z",
-      "Status": "Pub",
-      "Desc": "A lightweight, cross-platform CLI utility written in Python to clone websites locally [1]. The script features dynamic terminal color coding, recursive crawling of internal links, offline file path rewriting, and automated asset acquisition (including external stylesheets, scripts, fonts, and images) [1].",
-      "Langs": {
-        "Python": 78.5,
-        "Shell": 11.5,
-        "Batchfile": 6.5,
-        "PowerShell": 3.5
-      },
-      "LangBytes": {
-        "Python": 21927,
-        "Shell": 3216,
-        "Batchfile": 1816,
-        "PowerShell": 991
-      },
-      "PreviewUrl": "",
-      "ReadMeIs": true,
-      "Banner": "https://repository-images.githubusercontent.com/1286310614/e49091bb-3a01-4fd4-af0d-9abfdd4b6bb0",
-      "Commits": 1,
-      "Stars": 0,
-      "Forks": 0,
-      "Archived": false
-    },
-    {
-      "Repo": "ColorPickUp",
-      "Date": "2026-07-05T18:11:34Z",
-      "UpdatedAt": "2026-07-13T13:52:21Z",
-      "Status": "Pub",
-      "Desc": "ColorPickUp is a fast, grid-optimized, and zero-dependency color picker library. Features 16 UI styles, advanced themes, and WCAG accessibility validation.",
-      "Langs": {
-        "JavaScript": 66.5,
-        "CSS": 33.5
-      },
-      "LangBytes": {
-        "JavaScript": 48993,
-        "CSS": 24669
-      },
-      "PreviewUrl": "https://mainroute-core.github.io/ColorPickUp/",
-      "ReadMeIs": true,
-      "Banner": "https://repository-images.githubusercontent.com/1290227693/d77c00cb-89b4-41df-ba89-9bf42f5d9e50",
-      "Commits": 6,
-      "Stars": 0,
-      "Forks": 0,
-      "Archived": false
-    },
-    {
-      "Repo": "StylishSelect",
-      "Date": "2026-07-15T07:01:25Z",
-      "UpdatedAt": "2026-07-16T09:34:31Z",
-      "Status": "Pub",
-      "Desc": "A modular, highly accessible, and performance-oriented replacement for native HTML single select elements written in vanilla ES6.",
-      "Langs": {
-        "JavaScript": 51.7,
-        "CSS": 48.3
-      },
-      "LangBytes": {
-        "JavaScript": 40496,
-        "CSS": 37851
-      },
-      "PreviewUrl": "https://mainroute-core.github.io/StylishSelect/",
-      "ReadMeIs": true,
-      "Banner": "https://repository-images.githubusercontent.com/1301307536/bc46d392-01b2-4650-b8fb-b845e86cdf01",
-      "Commits": 3,
-      "Stars": 0,
-      "Forks": 0,
-      "Archived": false
-    }
-  ]
-}
+    "PreviewUrl": "https://mainroute-core.github.io/Zeniod/",
+    "ReadMeIs": true,
+    "Banner": "https://repository-images.githubusercontent.com/1218045886/45bcddfb-67bb-4e8a-a800-bbe559f691a9",
+    "Commits": 4,
+    "Stars": 0,
+    "Forks": 0
+  }
+]
