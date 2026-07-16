@@ -31,7 +31,7 @@ jobs:
             const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
             async function generateDatabase() {
-              const username = 'MainRoute-Core';
+              const username = 'Pro-Bandey';
 
               // Repositories to exclude
               const excludedRepos = [
