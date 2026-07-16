@@ -56,6 +56,17 @@ jobs:
                     }
                     createdAt
                     websiteUrl
+                    contributionsCollection {
+                      contributionCalendar {
+                        totalContributions
+                        weeks {
+                          contributionDays {
+                            contributionCount
+                            date
+                          }
+                        }
+                      }
+                    }
                   }
                 }
               `;
@@ -65,6 +76,22 @@ jobs:
                 const userResult = await github.graphql(userQuery, { username: username });
                 if (userResult && userResult.user) {
                   const u = userResult.user;
+                  const calendar = u.contributionsCollection?.contributionCalendar || {};
+                  const totalContributions = calendar.totalContributions || 0;
+                  const contributions = [];
+                  if (calendar.weeks) {
+                    for (const week of calendar.weeks) {
+                      if (week.contributionDays) {
+                        for (const day of week.contributionDays) {
+                          contributions.push({
+                            count: day.contributionCount,
+                            date: day.date
+                          });
+                        }
+                      }
+                    }
+                  }
+
                   userData = {
                     login: u.login,
                     avatar_url: u.avatarUrl,
@@ -73,9 +100,11 @@ jobs:
                     public_repos: u.repositories?.totalCount || 0,
                     followers: u.followers?.totalCount || 0,
                     following: u.following?.totalCount || 0,
-                    location: '', // Explicitly set empty as requested
+                    location: 'Delhi, India',
                     blog: u.websiteUrl || 'https://pro-bandey.github.io',
-                    created_at: u.createdAt
+                    created_at: u.createdAt,
+                    total_contributions: totalContributions,
+                    contributions: contributions
                   };
                 }
               } catch (err) {
