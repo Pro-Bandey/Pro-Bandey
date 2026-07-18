@@ -35,9 +35,16 @@ jobs:
 
               // Repositories to exclude
               const excludedRepos = [
-               'pro-bandey',
+                '.github',
+                'Branding',
+                'HomePage-Pro',
+                'Mozilla-Tweaks',
+                'MRamzanCh',
+                'pro-bandey',
                 'pro-bandey.github.io',
-                '.github'
+                'shots',
+                'ShieldAuthDocs',
+                'WorkSpaces'
 
               ].map(repo => repo.toLowerCase().trim());
 
