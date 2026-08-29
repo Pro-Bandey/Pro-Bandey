@@ -42,8 +42,8 @@ jobs:
                 'MRamzanCh',
                 'pro-bandey',
                 'pro-bandey.github.io',
+                'qrapiserver',
                 'shots',
-                'ShieldAuthDocs',
                 'WorkSpaces'
 
               ].map(repo => repo.toLowerCase().trim());
